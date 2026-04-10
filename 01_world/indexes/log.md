@@ -67,3 +67,11 @@ Added a locked end-of-volume checkpoint for the pilot tragedy so the current man
 ## [2026-04-10] review | structure blueprint written
 
 Reviewed the current ultra-long-form workspace structure, recorded strengths and scale risks, and wrote a detailed reconstruction blueprint plus a reusable chapter build checklist.
+
+## [2026-04-10] system | reinforced long-form operating system
+
+Integrated expert-review consensus into the live system: added an authority matrix, source ingest protocol, voice contract, act/volume/audit checklists, structural reinforcement rules, and promoted aftermath-driven cadence. Also activated reader, pulse, subtext, traction, thematic, resonance, and storyline layers for the pilot workspace.
+
+## [2026-04-10] system | scene emotion maps added
+
+Added `emotion-map.md` files across the pilot scene set so the new scene -> aftermath -> pulse workflow is now grounded in per-scene emotional texture, not only chapter-level summaries.

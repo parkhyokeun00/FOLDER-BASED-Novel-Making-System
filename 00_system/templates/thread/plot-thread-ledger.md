@@ -5,9 +5,13 @@
 - id:
 - name:
 - category:
-- status: open | active | dormant | resolved | cut
+- status: introduced | active | maturing | due | closed | broken | retired
 - introduced in:
 - latest touch:
+- maturity:
+- deadline:
+- reader-memory risk:
+- reminder plan:
 - intended payoff:
 - owners:
 - notes:

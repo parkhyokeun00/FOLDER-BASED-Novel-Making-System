@@ -2,11 +2,15 @@
 
 Place raw source materials here.
 
-Suggested future subfolders:
+Use `00_system/SOURCE_INGEST_PROTOCOL.md` as the intake contract.
 
-- articles
-- notes
-- images
-- research
-- interviews
+Suggested subfolders:
+
+- raw
+- parsed
+- canon-integrated
+- deprecated
 - fragments
+- research
+- mood-boards
+- voice-notes

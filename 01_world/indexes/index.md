@@ -21,14 +21,31 @@
 - relationship-arc: 핵심 관계의 장기 변화 추적
 - world-conflict-arc: 세계 차원의 갈등과 구조적 압력 추적
 - foreshadow-payoff-arc: 복선과 회수 추적
+- thematic-compass: 작품이 실제로 무엇을 묻고 있는지 추적
 
 ## Architecture boards
 
 - series-bible: 작품 전체 약속과 확장 범위
 - volume-map: 권 단위 구조
 - act-map: 막 단위 압력과 전환점
-- chapter-map: 장 단위 목적과 변화 기록
-- pov-map: 시점 규칙과 지식 경계
+- chapter-map: 장 단위 목적, 변화, reader handoff 기록
+- pov-map: 시점 규칙, 지식 경계, blind spot
+- resonance-map: 권별 자족성, 반향, 다음 권 인계
+- storyline-weave: 복수 스토리라인 직조
+
+## Reader / pulse / subtext / traction
+
+- emotional-pulse: 장면과 장의 감정 리듬
+- reader-memory-model: 독자가 기억하거나 잊을 요소, 욕망과 공포
+- misreading-design: 독자가 틀리게 믿고 있어야 하는 핵심 오해
+- subtext-registry: 표면 대사 아래 숨어 있는 실제 의미
+- traction-log: 다음 장과 다음 권으로 독자를 끌고 가는 장치
+
+## Dashboards
+
+- object-index: 모든 객체의 현재 상태와 최근 접촉
+- character-index: 인물 전용 빠른 조회
+- thread-dashboard: thread 현황과 상태
 
 ## Thread / timeline / canon
 

@@ -10,6 +10,11 @@
 - status: planned | drafted | revised | locked
 - purpose:
 - main change:
+- thematic variation:
 - active threads:
 - scene refs:
+- reader question:
+- closing traction:
+- emotional residue:
+- next-chapter handoff:
 - notes:

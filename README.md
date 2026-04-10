@@ -2,26 +2,34 @@
 
 This workspace is a folder-based novel wiki where each object in the world can be represented as its own agent folder.
 
+It is designed to stay useful from a short tragic pilot all the way to ultra-long serialized fiction.
+
 ## Core concept
 
 - One folder can represent one object in the story world.
-- An object may be a character, location, item, weather system, social force, rumor, event seed, or any other story-bearing entity.
+- An object may be a character, location, item, weather system, social force, rumor, institution, event seed, or any other story-bearing entity.
 - Each object folder contains structured attributes and a persona prompt so it can be "summoned" during scene creation.
 - A master agent orchestrates scenes by selecting and combining relevant object agents.
+- `aftermath.md` acts as the update hub so scene consequences can propagate into the wider system without relying on memory.
 
 ## World model
 
-- `00_system/`: operating rules, templates, master-agent contract
+- `00_system/`: operating rules, templates, checklists, and master-agent contracts
 - `01_world/objects/`: one folder per world object
-- `01_world/scenes/`: one folder per scene
-- `01_world/arcs/`: long-running change tracks for characters, relationships, world conflicts, and foreshadowing
-- `01_world/architecture/`: series, volume, act, chapter, and POV planning boards
+- `01_world/scenes/`: one folder per scene or scene bundle
+- `01_world/arcs/`: long-running change tracks for characters, relationships, world conflicts, motifs, and theme
+- `01_world/architecture/`: series, volume, act, chapter, POV, resonance, and storyline planning boards
 - `01_world/threads/`: plot-thread and promise ledgers
-- `01_world/timeline/`: chronology and event ordering truth
-- `01_world/canon/`: world laws and contradiction watchlists
-- `01_world/checkpoints/`: frozen canon snapshots at act/volume milestones
-- `01_world/indexes/`: global indexes and logs
-- `02_sources/`: raw notes and source materials
+- `01_world/timeline/`: chronology and event-order truth
+- `01_world/pulse/`: emotional rhythm across scenes and chapters
+- `01_world/reader/`: reader memory, desire, fear, and controlled misreading
+- `01_world/subtext/`: hidden meaning and surface/underlayer tension
+- `01_world/traction/`: chapter and volume closing pull devices
+- `01_world/canon/`: world laws, continuity watchlists, and taboo boundaries
+- `01_world/checkpoints/`: frozen canon snapshots at act and volume milestones
+- `01_world/indexes/`: indexes, dashboards, and logs
+- `02_sources/`: raw notes, research, fragments, mood boards, and source material
+- `03_manuscript/`: compiled reader-facing drafts
 
 ## Scale hierarchy
 
@@ -34,44 +42,70 @@ This workspace can operate at multiple scales:
 - Scene
 - Beat
 
-## Working loop
+## Operating cadence
 
-1. Create or refine object folders.
-2. Define or revise architecture boards when planning at volume, act, or chapter scale.
-3. Ask the master agent to summon relevant object agents.
-4. Generate a scene or chapter using object state, arc state, active threads, and timeline state.
-5. Write back consequences into object folders and scene records.
-6. Update the relevant arc, thread, timeline, and chapter boards so long-form continuity does not drift.
-7. Freeze major milestones into checkpoints when an act or volume boundary is crossed.
+This workspace uses layered closure rather than one giant update pass.
+
+### Scene-close
+
+- write or revise the scene
+- write `aftermath.md`
+- update local object state and immediate timeline
+
+### Chapter-close
+
+- update arcs
+- update threads
+- update chapter map
+- update reader, pulse, and traction layers
+
+### Act-close
+
+- freeze a checkpoint
+- review due threads and drift
+
+### Volume-close
+
+- freeze a checkpoint
+- audit canon, theme, resonance, and manuscript sync
 
 ## Long-form support
 
 For longer fiction, object state alone is not enough.
 
-This workspace also tracks four long-form axes:
+This workspace also tracks:
 
 - `character-state-arc.md`: how major characters change over time
 - `relationship-arc.md`: how important relationships evolve
 - `world-conflict-arc.md`: the major hidden truth, structure, or ongoing conflict
 - `foreshadow-payoff-arc.md`: planted motifs, lines, objects, and their eventual return
+- `thematic-compass.md`: what the story is really arguing and how each volume varies that argument
 
 Objects are the local truth.
 Arcs are the long-range truth.
 
-## Ultra-long-form support
+## Reader-facing support
 
-To survive very long fiction, this workspace separates:
+To keep a long project from becoming technically coherent but unreadably inert, the workspace also tracks:
 
-- local entity truth: `objects/`
-- scene event truth: `scenes/`
-- long-range emotional and structural truth: `arcs/`
-- future shape and pacing plans: `architecture/`
-- open promises and unresolved tensions: `threads/`
-- chronological truth: `timeline/`
-- frozen canon and contradiction control: `canon/` and `checkpoints/`
+- reader memory and forgetting
+- controlled misreading
+- emotional rhythm
+- subtext
+- chapter and volume traction
+- POV limitations and voice stability
 
-This means the system can keep past canon stable while still allowing future plans to change.
+## Authority
 
-## Current goal
+The workspace uses both:
 
-This repository currently defines the structure only. The next step is to create the first village or world and then add the first object agents.
+- a truth hierarchy
+- a question-by-question authority matrix
+
+If two boards disagree, resolve the conflict through `00_system/AUTHORITY_MATRIX.md` rather than intuition.
+
+## Current state
+
+- the pilot tragedy is complete
+- the workspace now includes long-form and ultra-long-form reinforcement
+- the next expansion path is multi-volume fiction using the hardened cadence, reader, pulse, subtext, and traction layers

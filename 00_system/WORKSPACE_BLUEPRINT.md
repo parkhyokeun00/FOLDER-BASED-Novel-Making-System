@@ -1,11 +1,11 @@
 # Workspace Blueprint
 
-This document is a detailed reconstruction guide for the current workspace.
+This document is the detailed reconstruction guide for the current workspace.
 
 Its purpose is twofold:
 
-1. Diagnose the current structure as a fiction operating system.
-2. Preserve enough detail that the same structure can be rebuilt from an empty folder without guessing.
+1. diagnose the current structure as a fiction operating system
+2. preserve enough detail that the same structure can be rebuilt from an empty folder without guessing
 
 ---
 
@@ -13,25 +13,29 @@ Its purpose is twofold:
 
 ### What is already strong
 
-- The workspace clearly separates local entity truth, scene truth, long-range narrative truth, planning truth, chronology truth, and frozen canon.
+- The workspace separates object truth, scene truth, long-range change, open obligations, chronology, reader state, traction, canon, and frozen history.
 - The object model is strong enough for both concrete entities and abstract forces.
-- The structure already supports short fiction, long-form fiction, and ultra-long-form serialization without changing the core philosophy.
-- Arc boards, thread ledgers, and timeline boards reduce drift that usually destroys long projects.
-- Checkpoints create frozen summaries, which is the most important anti-retcon mechanism in large fiction systems.
+- The system now supports not only continuity preservation, but also emotional rhythm, reader memory, subtext, and page-turn pull.
+- Checkpoints create frozen summaries, which remain the main anti-retcon mechanism.
+- `aftermath.md` is now the official update hub, reducing duplicated maintenance labor.
 
-### What is still structurally risky
+### What still requires discipline
 
-- `01_world/scenes/` is currently flat. This is acceptable for a pilot and small novels, but a true ultra-long serial should eventually partition scenes by volume and act.
-- `01_world/objects/` is global. This is correct as a canon layer, but very large projects will need disciplined indexing and naming to avoid object sprawl.
-- `02_sources/` exists, but the current pilot does not yet define a detailed per-source ingest protocol with provenance metadata.
-- The system is excellent at preserving continuity, but it still depends on disciplined updates. If boards are not updated after each major chapter, drift can still happen.
+- `01_world/scenes/` is still flat for the pilot. This is acceptable now, but `volume-002` should trigger a directory split.
+- `02_sources/` now has a protocol, but it still depends on actual use to stay clean.
+- Reader, pulse, subtext, and traction layers only help if they are kept current.
+- Dashboards reduce friction, but they do not remove the need for chapter-close and volume-close review.
 
 ### Overall verdict
 
-The structure is already good enough to support ultra-long fiction in principle.
+The structure is now good enough to support:
 
-It is not "fragile".
-Its main remaining risk is operational discipline at scale, not missing architecture.
+- short fiction
+- long-form fiction
+- ultra-long serialization
+
+Its main remaining risk is no longer missing architecture.
+It is the human or agent habit of skipping updates.
 
 ---
 
@@ -42,12 +46,16 @@ It is a layered story operating system.
 
 Each layer answers a different question:
 
-- `objects/`: what exists
+- `objects/`: what exists now
 - `scenes/`: what happened locally
 - `arcs/`: what is changing over long distances
-- `architecture/`: what the future is currently supposed to look like
 - `threads/`: what promises are still open
 - `timeline/`: when things happened
+- `pulse/`: what the emotional rhythm is doing
+- `reader/`: what the reader remembers, wants, fears, or misreads
+- `subtext/`: what is being said underneath what is spoken
+- `traction/`: why the reader continues
+- `architecture/`: what the future is currently supposed to look like
 - `canon/`: what may not be broken
 - `checkpoints/`: what part of the past is now frozen
 - `manuscript/`: what the reader-facing output currently is
@@ -58,9 +66,7 @@ This separation is the reason the system can scale.
 
 ## 3. Root directory model
 
-The current root contains four main top-level directories and one root overview file.
-
-### Root files and folders
+The root contains four main top-level directories and one root overview file.
 
 ```text
 README.md
@@ -77,79 +83,70 @@ README.md
 
 - `00_system/`
   The operating system.
-  This is where the rules, contracts, templates, and reconstruction logic live.
+  Rules, contracts, templates, and reconstruction logic live here.
 
 - `01_world/`
   The active story world.
-  This is where objects, scenes, arcs, plans, threads, and canon boards live.
+  Objects, scenes, boards, canon, and checkpoints live here.
 
 - `02_sources/`
-  Immutable or semi-immutable raw materials.
-  These are not the story world itself.
-  They are inputs to be interpreted and integrated.
+  Intake layer.
+  Raw material, research, fragments, mood boards, and voice notes live here.
 
 - `03_manuscript/`
-  Output-facing draft zone.
-  This is where compiled human-readable manuscripts live.
+  Output layer.
+  Reader-facing compiled drafts live here.
 
 ---
 
 ## 4. Exact current tree
 
-The following tree represents the current structure at the time this blueprint was written.
+The following tree represents the current structure after reinforcement.
 
 ```text
 README.md
 00_system/
+  ACT_CLOSE_CHECKLIST.md
+  AUTHORITY_MATRIX.md
+  CHAPTER_BUILD_CHECKLIST.md
+  CONTINUITY_AUDIT_CHECKLIST.md
   MASTER_AGENT.md
   SCHEMA.md
+  SOURCE_INGEST_PROTOCOL.md
+  STRUCTURAL_REINFORCEMENT.md
   ULTRA_LONGFORM.md
+  VOICE_CONTRACT.md
+  VOLUME_CLOSE_CHECKLIST.md
   WORKSPACE_BLUEPRINT.md
   templates/
     arc/
-      character-state-arc.md
-      relationship-arc.md
-      world-conflict-arc.md
-      foreshadow-payoff-arc.md
     architecture/
-      series-bible.md
-      volume-map.md
-      act-map.md
-      chapter-map.md
-      pov-map.md
     canon/
-      canon-laws.md
-      continuity-watchlist.md
     checkpoint/
-      canon-snapshot.md
     object_agent/
-      entity.md
-      agent.md
-      state.md
-      links.md
-      hooks.md
+    pulse/
+    reader/
     scene/
-      brief.md
-      cast.md
-      draft.md
-      aftermath.md
+    subtext/
     thread/
-      plot-thread-ledger.md
     timeline/
-      master-timeline.md
+    traction/
 
 01_world/
   architecture/
-    series-bible.md
-    volume-map.md
     act-map.md
     chapter-map.md
     pov-map.md
+    resonance-map.md
+    series-bible.md
+    storyline-weave.md
+    volume-map.md
   arcs/
     character-state-arc.md
-    relationship-arc.md
-    world-conflict-arc.md
     foreshadow-payoff-arc.md
+    relationship-arc.md
+    thematic-compass.md
+    world-conflict-arc.md
   canon/
     canon-laws.md
     continuity-watchlist.md
@@ -157,21 +154,21 @@ README.md
     README.md
     checkpoint-001-end-of-volume-001.md
   indexes/
+    character-index.md
     index.md
     log.md
+    object-index.md
+    thread-dashboard.md
   objects/
     characters/
-      namju/
-      sumin/
-      fake-artist/
     forces/
-      poverty/
-      guilt/
-      sunset/
     items/
-      ghost-paintings/
     locations/
-      atelier-room/
+  pulse/
+    emotional-pulse.md
+  reader/
+    misreading-design.md
+    reader-memory-model.md
   scenes/
     story-core/
     scene-001-room-at-dusk/
@@ -184,12 +181,17 @@ README.md
     scene-008-plan-to-kill/
     scene-009-failed-revenge/
     scene-010-sunset-fall/
+  subtext/
+    subtext-registry.md
   threads/
     plot-thread-ledger.md
   timeline/
     master-timeline.md
+  traction/
+    traction-log.md
 
 02_sources/
+  README.md
 
 03_manuscript/
   README.md
@@ -206,14 +208,32 @@ This directory defines how the workspace works.
 
 #### Required operating documents
 
-- `MASTER_AGENT.md`
-  Defines the role of the orchestration agent.
-
 - `SCHEMA.md`
-  Defines the file contracts and authority model.
+  File contracts and cadence.
+
+- `MASTER_AGENT.md`
+  Orchestration, writer/editor pass, rejection and breathing-scene rules.
 
 - `ULTRA_LONGFORM.md`
-  Defines how to operate the system when the project becomes large.
+  Scale-aware operation manual.
+
+- `AUTHORITY_MATRIX.md`
+  Question-by-question truth resolution.
+
+- `SOURCE_INGEST_PROTOCOL.md`
+  Intake and provenance rules.
+
+- `CHAPTER_BUILD_CHECKLIST.md`
+- `ACT_CLOSE_CHECKLIST.md`
+- `VOLUME_CLOSE_CHECKLIST.md`
+- `CONTINUITY_AUDIT_CHECKLIST.md`
+  Operational checklists.
+
+- `VOICE_CONTRACT.md`
+  Style continuity contract.
+
+- `STRUCTURAL_REINFORCEMENT.md`
+  Overlay rules for long and ultra-long work.
 
 - `WORKSPACE_BLUEPRINT.md`
   This reconstruction guide.
@@ -228,8 +248,10 @@ This directory defines how the workspace works.
 - `templates/timeline/`
 - `templates/canon/`
 - `templates/checkpoint/`
-
-These templates are the fastest way to recreate the system consistently.
+- `templates/pulse/`
+- `templates/reader/`
+- `templates/subtext/`
+- `templates/traction/`
 
 ### 5.2 `01_world/`
 
@@ -239,7 +261,7 @@ This directory contains live story truth and live planning.
 
 Stores one folder per story-bearing object.
 
-Each object folder must contain:
+Minimum object contract:
 
 - `entity.md`
 - `agent.md`
@@ -247,37 +269,48 @@ Each object folder must contain:
 - `links.md`
 - `hooks.md`
 
-These five files are the minimum object contract.
+Advanced extensions:
+
+- `evolution.md`
+- `thematic-role.md`
 
 #### `scenes/`
 
 Stores one folder per scene or scene bundle.
 
-Each scene folder must contain:
+Minimum scene contract:
 
 - `brief.md`
 - `cast.md`
 - `draft.md`
 - `aftermath.md`
 
-These four files are the minimum scene contract.
+Advanced extension:
+
+- `emotion-map.md`
+
+`aftermath.md` is the update hub.
 
 #### `arcs/`
 
 Stores long-range transformation boards.
 
-Current required boards:
+Required:
 
 - `character-state-arc.md`
 - `relationship-arc.md`
 - `world-conflict-arc.md`
 - `foreshadow-payoff-arc.md`
 
+Advanced:
+
+- `thematic-compass.md`
+
 #### `architecture/`
 
 Stores intended future structure.
 
-Current required boards:
+Required:
 
 - `series-bible.md`
 - `volume-map.md`
@@ -285,11 +318,16 @@ Current required boards:
 - `chapter-map.md`
 - `pov-map.md`
 
+Advanced:
+
+- `resonance-map.md`
+- `storyline-weave.md`
+
 #### `threads/`
 
 Stores unresolved obligations.
 
-Current required board:
+Required:
 
 - `plot-thread-ledger.md`
 
@@ -297,15 +335,51 @@ Current required board:
 
 Stores chronology truth.
 
-Current required board:
+Required:
 
 - `master-timeline.md`
+
+#### `pulse/`
+
+Stores emotional rhythm.
+
+Required once the project moves beyond a short pilot:
+
+- `emotional-pulse.md`
+
+#### `reader/`
+
+Stores reader-facing memory and controlled misunderstanding.
+
+Required once the project depends on delayed payoff:
+
+- `reader-memory-model.md`
+
+Recommended:
+
+- `misreading-design.md`
+
+#### `subtext/`
+
+Stores recurring hidden meaning patterns.
+
+Recommended for long literary, psychological, or multi-volume work:
+
+- `subtext-registry.md`
+
+#### `traction/`
+
+Stores why the next page or volume is necessary.
+
+Recommended once chapters become the main drafting unit:
+
+- `traction-log.md`
 
 #### `canon/`
 
 Stores stable rules and contradiction watch.
 
-Current required boards:
+Required:
 
 - `canon-laws.md`
 - `continuity-watchlist.md`
@@ -318,26 +392,35 @@ Each checkpoint is a snapshot of canon up to a boundary and should not be casual
 
 #### `indexes/`
 
-Stores high-level navigation and chronological change history.
+Stores navigation and dashboard views.
 
-Current required files:
+Required:
 
 - `index.md`
 - `log.md`
 
+Recommended once scale increases:
+
+- `object-index.md`
+- `character-index.md`
+- `thread-dashboard.md`
+
 ### 5.3 `02_sources/`
 
-This directory is intentionally raw.
-It is the intake layer, not the interpreted story layer.
+This directory is intake, not canon.
 
 Recommended future subfolders:
 
-- `articles/`
-- `notes/`
-- `images/`
-- `research/`
-- `interviews/`
+- `raw/`
+- `parsed/`
+- `canon-integrated/`
+- `deprecated/`
 - `fragments/`
+- `research/`
+- `mood-boards/`
+- `voice-notes/`
+
+Follow `00_system/SOURCE_INGEST_PROTOCOL.md`.
 
 ### 5.4 `03_manuscript/`
 
@@ -350,53 +433,69 @@ Current contract:
 
 ---
 
-## 6. Authority hierarchy
+## 6. Authority hierarchy and matrix
 
-This is the most important rule in the whole system.
-
-Do not let two files claim the same kind of truth.
-
-### Current authority order
+### Hierarchy
 
 1. `checkpoints/`
-   Frozen canon before the cutoff.
-
 2. `canon/`
-   Stable world laws and continuity warnings.
-
 3. `timeline/`
-   Chronological truth.
-
 4. `objects/`
-   Current truth for specific entities.
-
 5. `scenes/`
-   Local event truth and aftermath.
-
 6. `arcs/`
-   Long-range interpretation of change.
-
 7. `threads/`
-   Open obligations and unresolved promises.
+8. `pulse/`
+9. `reader/`
+10. `subtext/`
+11. `traction/`
+12. `architecture/`
+13. `manuscript/`
 
-8. `architecture/`
-   Future plan, revisable.
+### Matrix
 
-9. `manuscript/`
-   Reader-facing compilation, derived from lower layers.
+Use `00_system/AUTHORITY_MATRIX.md` when a question mixes multiple truth types.
 
-### Important distinction
-
-- `architecture/` may change.
-- `checkpoint/` may not casually change.
-
-This single distinction is what prevents ultra-long projects from dissolving into silent retcons.
+Do not resolve mixed conflicts by intuition alone.
 
 ---
 
-## 7. Reconstruction order from an empty folder
+## 7. Operating cadence
 
-To recreate the current system without guessing, follow this order.
+### Scene-close
+
+1. Write or revise the scene folder.
+2. Write `aftermath.md`.
+3. Update affected object state and hooks.
+4. Update immediate timeline truth.
+5. Update scene emotion map if used.
+
+### Chapter-close
+
+1. Update affected arc boards.
+2. Update `plot-thread-ledger.md`.
+3. Update `chapter-map.md`.
+4. Update `emotional-pulse.md`.
+5. Update `reader-memory-model.md` and `misreading-design.md` if needed.
+6. Update `traction-log.md`.
+7. Update `continuity-watchlist.md` if risk appeared.
+
+### Act-close
+
+1. Create a checkpoint.
+2. Review due threads.
+3. Review act-level arc movement.
+4. Review planning drift.
+
+### Volume-close
+
+1. Create a checkpoint.
+2. Review canon integrity.
+3. Review theme and resonance.
+4. Sync reader-facing manuscript output.
+
+---
+
+## 8. Reconstruction order from an empty folder
 
 ### Step 1. Create root
 
@@ -414,321 +513,124 @@ README.md
 
 Inside `00_system/`, create:
 
-```text
-MASTER_AGENT.md
-SCHEMA.md
-ULTRA_LONGFORM.md
-```
+- `SCHEMA.md`
+- `MASTER_AGENT.md`
+- `ULTRA_LONGFORM.md`
+- `AUTHORITY_MATRIX.md`
+- `SOURCE_INGEST_PROTOCOL.md`
+- `VOICE_CONTRACT.md`
+- `STRUCTURAL_REINFORCEMENT.md`
+- `CHAPTER_BUILD_CHECKLIST.md`
+- `ACT_CLOSE_CHECKLIST.md`
+- `VOLUME_CLOSE_CHECKLIST.md`
+- `CONTINUITY_AUDIT_CHECKLIST.md`
 
 ### Step 3. Create all template families
 
 Inside `00_system/templates/`, create:
 
-```text
-arc/
-architecture/
-canon/
-checkpoint/
-object_agent/
-scene/
-thread/
-timeline/
-```
-
-Then create the current template files exactly as listed in the tree above.
+- `arc/`
+- `architecture/`
+- `canon/`
+- `checkpoint/`
+- `object_agent/`
+- `pulse/`
+- `reader/`
+- `scene/`
+- `subtext/`
+- `thread/`
+- `timeline/`
+- `traction/`
 
 ### Step 4. Create live world subdirectories
 
 Inside `01_world/`, create:
 
-```text
-architecture/
-arcs/
-canon/
-checkpoints/
-indexes/
-objects/
-scenes/
-threads/
-timeline/
-```
+- `architecture/`
+- `arcs/`
+- `canon/`
+- `checkpoints/`
+- `indexes/`
+- `objects/`
+- `pulse/`
+- `reader/`
+- `scenes/`
+- `subtext/`
+- `threads/`
+- `timeline/`
+- `traction/`
 
 ### Step 5. Create object categories
 
 Inside `01_world/objects/`, create:
 
-```text
-characters/
-locations/
-items/
-forces/
-```
+- `characters/`
+- `locations/`
+- `items/`
+- `forces/`
 
-### Step 6. Create base navigation files
+### Step 6. Create base navigation and dashboard files
 
 Create:
 
-- `01_world/indexes/index.md`
-- `01_world/indexes/log.md`
+- `index.md`
+- `log.md`
+- `object-index.md`
+- `character-index.md`
+- `thread-dashboard.md`
 
-### Step 7. Create arc boards
-
-Create:
-
-- `01_world/arcs/character-state-arc.md`
-- `01_world/arcs/relationship-arc.md`
-- `01_world/arcs/world-conflict-arc.md`
-- `01_world/arcs/foreshadow-payoff-arc.md`
-
-### Step 8. Create architecture boards
+### Step 7. Create core boards
 
 Create:
 
-- `01_world/architecture/series-bible.md`
-- `01_world/architecture/volume-map.md`
-- `01_world/architecture/act-map.md`
-- `01_world/architecture/chapter-map.md`
-- `01_world/architecture/pov-map.md`
+- arc boards
+- architecture boards
+- thread ledger
+- master timeline
+- canon laws
+- continuity watchlist
+- pulse board
+- reader boards
+- traction board
 
-### Step 9. Create thread, timeline, canon, checkpoint base files
+### Step 8. Create object folders
 
-Create:
+For each live object, create the five-file minimum contract.
 
-- `01_world/threads/plot-thread-ledger.md`
-- `01_world/timeline/master-timeline.md`
-- `01_world/canon/canon-laws.md`
-- `01_world/canon/continuity-watchlist.md`
-- `01_world/checkpoints/README.md`
+### Step 9. Create scene folders
 
-### Step 10. Create object folders
+For each scene, create the four-file minimum contract.
+If scene-level emotion tracking is active, also add `emotion-map.md`.
 
-For each live object, create a folder in its category and place:
-
-- `entity.md`
-- `agent.md`
-- `state.md`
-- `links.md`
-- `hooks.md`
-
-### Step 11. Create scene folders
-
-For each scene, create a folder and place:
-
-- `brief.md`
-- `cast.md`
-- `draft.md`
-- `aftermath.md`
-
-### Step 12. Create manuscript layer
+### Step 10. Create manuscript layer
 
 Create:
 
 - `03_manuscript/README.md`
 - one or more compiled manuscripts
 
-### Step 13. Freeze finished boundaries
+### Step 11. Freeze finished boundaries
 
-When the first fully coherent unit is done, create:
-
-- a checkpoint in `01_world/checkpoints/`
-
-This is mandatory if the project is going to grow.
+When the first coherent act or volume exists, create a checkpoint.
 
 ---
 
-## 8. Naming rules
+## 9. Scene partition policy
 
-### Objects
+Use these thresholds:
 
-Use lowercase and hyphen-separated folder names.
+- single pilot or single-volume draft: flat scenes allowed
+- beginning of `volume-002`: partition by volume
+- larger multi-volume work: partition by volume and act
+- chapter-heavy work: add chapter folders beneath act folders
 
-Examples:
-
-- `namju`
-- `fake-artist`
-- `atelier-room`
-- `ghost-paintings`
-- `ash-rain`
-
-### Scenes
-
-Use explicit numeric prefixes when ordering matters.
-
-Current pattern:
-
-- `scene-001-room-at-dusk`
-- `scene-002-gallery-visit`
-
-### Chapters
-
-Use:
-
-- `chapter-001`
-- `chapter-002`
-
-### Volumes
-
-Use:
-
-- `volume-001`
-- `volume-002`
-
-### Checkpoints
-
-Use:
-
-- `checkpoint-001-end-of-volume-001`
-- `checkpoint-002-end-of-act-02`
+Do not wait until hundreds of scenes already exist.
 
 ---
 
-## 9. Operating procedure after writing a scene
+## 10. Current pilot-specific content
 
-This is the current mandatory update order.
-
-1. Write or revise the scene folder.
-2. Update affected object `state.md`, `links.md`, and `hooks.md`.
-3. Update relevant arc boards.
-4. Update the thread ledger if an obligation opened, advanced, or resolved.
-5. Update the master timeline if chronology was locked.
-6. Update chapter or act planning boards if the plan drifted.
-7. Update `index.md` if navigation changed.
-8. Append a new entry to `log.md`.
-9. If a major boundary was crossed, create or revise a checkpoint.
-
-This order matters because it keeps local truth, long-range truth, and future plan aligned.
-
----
-
-## 10. What makes the current structure scalable
-
-### Reason 1. It treats abstract forces like objects
-
-`poverty`, `guilt`, and `sunset` can be tracked like entities.
-This is unusually powerful for literary fiction, gothic fiction, psychological fiction, and dark fantasy.
-
-### Reason 2. It separates scene truth from future planning
-
-Most story systems collapse because the plan and the canon blur together.
-This one separates them cleanly.
-
-### Reason 3. It freezes past boundaries
-
-Checkpoints stop silent rewriting.
-
-### Reason 4. It keeps multiple long-range views alive
-
-No single board has to do everything.
-
-- arcs track transformation
-- threads track obligations
-- timeline tracks chronology
-- architecture tracks future shape
-
-That division is what makes scale possible.
-
----
-
-## 11. Structural review findings
-
-These are review findings, not fatal flaws.
-
-### Finding 1: flat scene storage will eventually strain navigation
-
-Current structure stores all scene folders directly under `01_world/scenes/`.
-This is fine now, but once the project reaches hundreds of scenes, the directory will become heavy to navigate and easy to misuse.
-
-Recommended future rule:
-
-- for pilot and small novels: keep flat
-- for larger novels: partition by volume
-- for ultra-long serials: partition by volume and act
-
-Example future shape:
-
-```text
-01_world/scenes/
-  volume-001/
-    act-01/
-      scene-001-...
-    act-02/
-      scene-...
-  volume-002/
-    act-01/
-      scene-...
-```
-
-This is not required yet, but it is the first scale pressure to watch.
-
-### Finding 2: source ingestion is still under-specified
-
-`02_sources/` exists, but the current workspace does not yet define a full source contract such as:
-
-- required metadata
-- ingest log entry format
-- provenance links back into world objects
-- source status such as raw / ingested / deprecated
-
-This matters once the system starts absorbing lots of research material.
-
-### Finding 3: operational discipline remains a dependency
-
-The architecture is strong, but it still depends on updating boards after important scenes and chapters.
-If the team stops updating arcs, threads, or timeline, continuity drift can still reappear.
-
-This is not a structural defect.
-It is a maintenance requirement.
-
----
-
-## 12. Recommended next hardening steps
-
-These are not required to preserve the current structure, but they are the logical next layer.
-
-### Hardening step A
-
-Add a formal source-ingest contract for `02_sources/`.
-
-### Hardening step B
-
-Introduce volume/act subfolders under `01_world/scenes/` once scene count becomes large.
-
-### Hardening step C
-
-Create reusable "chapter build checklist" and "volume close checklist" documents under `00_system/`.
-
-### Hardening step D
-
-Add a per-object metadata index once object count becomes high.
-
----
-
-## 13. Minimum viable reproduction checklist
-
-If someone wants to recreate the structure fast, this is the minimal checklist.
-
-- Create root folders.
-- Create `00_system/` contracts.
-- Create all template families.
-- Create `01_world/` live subdirectories.
-- Create indexes.
-- Create arc boards.
-- Create architecture boards.
-- Create thread, timeline, canon, and checkpoint files.
-- Create object category folders.
-- Create at least one object folder using the 5-file contract.
-- Create at least one scene folder using the 4-file contract.
-- Create one manuscript output file.
-- Freeze at least one checkpoint once a coherent unit is finished.
-
-If all of the above exists, the system is alive.
-
----
-
-## 14. Current pilot-specific content
-
-The current workspace is not empty.
-It already contains a fully built pilot tragedy.
+The workspace is already tested by a complete pilot tragedy.
 
 ### Current pilot object set
 
@@ -755,16 +657,13 @@ It already contains a fully built pilot tragedy.
 
 - `03_manuscript/노을 아래, 끝내.md`
 
-### Current pilot frozen checkpoint
+### Current frozen checkpoint
 
 - `checkpoint-001-end-of-volume-001.md`
 
-This means the workspace is not merely prepared.
-It is already tested by a complete end-to-end story cycle.
-
 ---
 
-## 15. Final summary
+## 11. Final summary
 
 To reproduce the current system correctly, remember this:
 
@@ -774,5 +673,7 @@ To reproduce the current system correctly, remember this:
 - plans are not canon
 - canon is not output
 - checkpoints freeze the past
+- reader state is not author memory
+- traction is not the same thing as thread count
 
 If those distinctions remain intact, the structure can survive very large fiction.
