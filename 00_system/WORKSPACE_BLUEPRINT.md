@@ -1,48 +1,34 @@
 # Workspace Blueprint
 
-This document is the detailed reconstruction guide for the current workspace.
+This document is the reconstruction guide for the current workspace.
 
-Its purpose is twofold:
+Its purpose is:
 
-1. diagnose the current structure as a fiction operating system
-2. preserve enough detail that the same structure can be rebuilt from an empty folder without guessing
-
----
-
-## 1. Executive diagnosis
-
-### What is already strong
-
-- The workspace separates object truth, scene truth, long-range change, open obligations, chronology, reader state, traction, canon, and frozen history.
-- The object model is strong enough for both concrete entities and abstract forces.
-- The system now supports not only continuity preservation, but also emotional rhythm, reader memory, subtext, and page-turn pull.
-- Checkpoints create frozen summaries, which remain the main anti-retcon mechanism.
-- `aftermath.md` is now the official update hub, reducing duplicated maintenance labor.
-
-### What still requires discipline
-
-- `01_world/scenes/` is still flat for the pilot. This is acceptable now, but `volume-002` should trigger a directory split.
-- `02_sources/` now has a protocol, but it still depends on actual use to stay clean.
-- Reader, pulse, subtext, and traction layers only help if they are kept current.
-- Dashboards reduce friction, but they do not remove the need for chapter-close and volume-close review.
-
-### Overall verdict
-
-The structure is now good enough to support:
-
-- short fiction
-- long-form fiction
-- ultra-long serialization
-
-Its main remaining risk is no longer missing architecture.
-It is the human or agent habit of skipping updates.
+1. to describe the structure as it exists now
+2. to let the same structure be rebuilt from an empty folder without guessing
 
 ---
 
-## 2. Core design philosophy
+## 1. Current state
 
-This workspace is not a normal notes folder.
-It is a layered story operating system.
+The workspace is intentionally in a structure-only state.
+
+That means:
+
+- system rules exist
+- templates exist
+- live world directories exist
+- core board files exist
+- no active cast, plot, scene set, or manuscript is loaded
+
+This is the correct state for architecture work before a new test story begins.
+
+---
+
+## 2. Design philosophy
+
+This is not a normal notes folder.
+It is a layered fiction operating system.
 
 Each layer answers a different question:
 
@@ -53,20 +39,16 @@ Each layer answers a different question:
 - `timeline/`: when things happened
 - `pulse/`: what the emotional rhythm is doing
 - `reader/`: what the reader remembers, wants, fears, or misreads
-- `subtext/`: what is being said underneath what is spoken
-- `traction/`: why the reader continues
+- `subtext/`: what is being meant beneath the explicit text
+- `traction/`: why the next chapter or volume must be opened
 - `architecture/`: what the future is currently supposed to look like
 - `canon/`: what may not be broken
-- `checkpoints/`: what part of the past is now frozen
-- `manuscript/`: what the reader-facing output currently is
-
-This separation is the reason the system can scale.
+- `checkpoints/`: what part of the past is frozen
+- `manuscript/`: reader-facing output
 
 ---
 
-## 3. Root directory model
-
-The root contains four main top-level directories and one root overview file.
+## 3. Root structure
 
 ```text
 README.md
@@ -79,29 +61,23 @@ README.md
 ### Meaning
 
 - `README.md`
-  Global orientation document.
+  Global orientation.
 
 - `00_system/`
-  The operating system.
-  Rules, contracts, templates, and reconstruction logic live here.
+  Rules, contracts, checklists, templates, and reconstruction logic.
 
 - `01_world/`
-  The active story world.
-  Objects, scenes, boards, canon, and checkpoints live here.
+  Live story structure and runtime boards.
 
 - `02_sources/`
-  Intake layer.
-  Raw material, research, fragments, mood boards, and voice notes live here.
+  Intake layer for research, fragments, mood, and raw material.
 
 - `03_manuscript/`
-  Output layer.
-  Reader-facing compiled drafts live here.
+  Reader-facing output zone.
 
 ---
 
 ## 4. Exact current tree
-
-The following tree represents the current structure after reinforcement.
 
 ```text
 README.md
@@ -152,7 +128,6 @@ README.md
     continuity-watchlist.md
   checkpoints/
     README.md
-    checkpoint-001-end-of-volume-001.md
   indexes/
     character-index.md
     index.md
@@ -161,26 +136,20 @@ README.md
     thread-dashboard.md
   objects/
     characters/
+      README.md
     forces/
+      README.md
     items/
+      README.md
     locations/
+      README.md
   pulse/
     emotional-pulse.md
   reader/
     misreading-design.md
     reader-memory-model.md
   scenes/
-    story-core/
-    scene-001-room-at-dusk/
-    scene-002-gallery-visit/
-    scene-003-sumin-alone/
-    scene-004-the-price/
-    scene-005-return-and-crack/
-    scene-006-blood-on-wrist/
-    scene-007-the-truth-breaks/
-    scene-008-plan-to-kill/
-    scene-009-failed-revenge/
-    scene-010-sunset-fall/
+    README.md
   subtext/
     subtext-registry.md
   threads/
@@ -195,71 +164,36 @@ README.md
 
 03_manuscript/
   README.md
-  노을 아래, 끝내.md
 ```
 
 ---
 
-## 5. Layer-by-layer contract
+## 5. Operating documents in `00_system/`
 
-### 5.1 `00_system/`
-
-This directory defines how the workspace works.
-
-#### Required operating documents
+Required system documents:
 
 - `SCHEMA.md`
-  File contracts and cadence.
-
 - `MASTER_AGENT.md`
-  Orchestration, writer/editor pass, rejection and breathing-scene rules.
-
 - `ULTRA_LONGFORM.md`
-  Scale-aware operation manual.
-
 - `AUTHORITY_MATRIX.md`
-  Question-by-question truth resolution.
-
 - `SOURCE_INGEST_PROTOCOL.md`
-  Intake and provenance rules.
-
+- `VOICE_CONTRACT.md`
+- `STRUCTURAL_REINFORCEMENT.md`
 - `CHAPTER_BUILD_CHECKLIST.md`
 - `ACT_CLOSE_CHECKLIST.md`
 - `VOLUME_CLOSE_CHECKLIST.md`
 - `CONTINUITY_AUDIT_CHECKLIST.md`
-  Operational checklists.
-
-- `VOICE_CONTRACT.md`
-  Style continuity contract.
-
-- `STRUCTURAL_REINFORCEMENT.md`
-  Overlay rules for long and ultra-long work.
-
 - `WORKSPACE_BLUEPRINT.md`
-  This reconstruction guide.
 
-#### Required template families
+These files define how the workspace behaves.
 
-- `templates/object_agent/`
-- `templates/scene/`
-- `templates/arc/`
-- `templates/architecture/`
-- `templates/thread/`
-- `templates/timeline/`
-- `templates/canon/`
-- `templates/checkpoint/`
-- `templates/pulse/`
-- `templates/reader/`
-- `templates/subtext/`
-- `templates/traction/`
+---
 
-### 5.2 `01_world/`
+## 6. Live world layer in `01_world/`
 
-This directory contains live story truth and live planning.
+### `objects/`
 
-#### `objects/`
-
-Stores one folder per story-bearing object.
+One folder per story-bearing object.
 
 Minimum object contract:
 
@@ -269,14 +203,14 @@ Minimum object contract:
 - `links.md`
 - `hooks.md`
 
-Advanced extensions:
+Optional extensions:
 
 - `evolution.md`
 - `thematic-role.md`
 
-#### `scenes/`
+### `scenes/`
 
-Stores one folder per scene or scene bundle.
+One folder per scene or scene bundle.
 
 Minimum scene contract:
 
@@ -285,157 +219,64 @@ Minimum scene contract:
 - `draft.md`
 - `aftermath.md`
 
-Advanced extension:
+Optional extension:
 
 - `emotion-map.md`
 
-`aftermath.md` is the update hub.
+### `arcs/`
 
-#### `arcs/`
+Long-range story change boards.
 
-Stores long-range transformation boards.
+### `architecture/`
 
-Required:
+Future-facing structure boards.
 
-- `character-state-arc.md`
-- `relationship-arc.md`
-- `world-conflict-arc.md`
-- `foreshadow-payoff-arc.md`
+### `threads/`
 
-Advanced:
+Open obligations and unresolved promises.
 
-- `thematic-compass.md`
+### `timeline/`
 
-#### `architecture/`
+Chronology truth.
 
-Stores intended future structure.
+### `pulse/`
 
-Required:
+Emotional rhythm.
 
-- `series-bible.md`
-- `volume-map.md`
-- `act-map.md`
-- `chapter-map.md`
-- `pov-map.md`
+### `reader/`
 
-Advanced:
+Reader memory and controlled misreading.
 
-- `resonance-map.md`
-- `storyline-weave.md`
+### `subtext/`
 
-#### `threads/`
+Surface/underlayer meaning.
 
-Stores unresolved obligations.
+### `traction/`
 
-Required:
+Page-turn and volume-turn force.
 
-- `plot-thread-ledger.md`
+### `canon/`
 
-#### `timeline/`
+Stable rules and contradiction watch.
 
-Stores chronology truth.
+### `checkpoints/`
 
-Required:
+Frozen summaries of canon.
 
-- `master-timeline.md`
+### `indexes/`
 
-#### `pulse/`
-
-Stores emotional rhythm.
-
-Required once the project moves beyond a short pilot:
-
-- `emotional-pulse.md`
-
-#### `reader/`
-
-Stores reader-facing memory and controlled misunderstanding.
-
-Required once the project depends on delayed payoff:
-
-- `reader-memory-model.md`
-
-Recommended:
-
-- `misreading-design.md`
-
-#### `subtext/`
-
-Stores recurring hidden meaning patterns.
-
-Recommended for long literary, psychological, or multi-volume work:
-
-- `subtext-registry.md`
-
-#### `traction/`
-
-Stores why the next page or volume is necessary.
-
-Recommended once chapters become the main drafting unit:
-
-- `traction-log.md`
-
-#### `canon/`
-
-Stores stable rules and contradiction watch.
-
-Required:
-
-- `canon-laws.md`
-- `continuity-watchlist.md`
-
-#### `checkpoints/`
-
-Stores frozen summaries.
-
-Each checkpoint is a snapshot of canon up to a boundary and should not be casually rewritten.
-
-#### `indexes/`
-
-Stores navigation and dashboard views.
-
-Required:
-
-- `index.md`
-- `log.md`
-
-Recommended once scale increases:
-
-- `object-index.md`
-- `character-index.md`
-- `thread-dashboard.md`
-
-### 5.3 `02_sources/`
-
-This directory is intake, not canon.
-
-Recommended future subfolders:
-
-- `raw/`
-- `parsed/`
-- `canon-integrated/`
-- `deprecated/`
-- `fragments/`
-- `research/`
-- `mood-boards/`
-- `voice-notes/`
-
-Follow `00_system/SOURCE_INGEST_PROTOCOL.md`.
-
-### 5.4 `03_manuscript/`
-
-This directory contains output-facing drafts.
-
-Current contract:
-
-- `README.md` explains what manuscript lives here
-- one or more compiled draft files live beside it
+Navigation and dashboard views.
 
 ---
 
-## 6. Authority hierarchy and matrix
+## 7. Authority
 
-### Hierarchy
+The workspace uses:
+
+- a hierarchy
+- a matrix
+
+Hierarchy:
 
 1. `checkpoints/`
 2. `canon/`
@@ -451,215 +292,65 @@ Current contract:
 12. `architecture/`
 13. `manuscript/`
 
-### Matrix
+Matrix:
 
 Use `00_system/AUTHORITY_MATRIX.md` when a question mixes multiple truth types.
 
-Do not resolve mixed conflicts by intuition alone.
-
 ---
 
-## 7. Operating cadence
+## 8. Cadence
 
 ### Scene-close
 
-1. Write or revise the scene folder.
-2. Write `aftermath.md`.
-3. Update affected object state and hooks.
-4. Update immediate timeline truth.
-5. Update scene emotion map if used.
+- write or revise the scene
+- write `aftermath.md`
+- update local object state and immediate timeline
 
 ### Chapter-close
 
-1. Update affected arc boards.
-2. Update `plot-thread-ledger.md`.
-3. Update `chapter-map.md`.
-4. Update `emotional-pulse.md`.
-5. Update `reader-memory-model.md` and `misreading-design.md` if needed.
-6. Update `traction-log.md`.
-7. Update `continuity-watchlist.md` if risk appeared.
+- update arcs
+- update threads
+- update chapter map
+- update reader, pulse, and traction layers
 
 ### Act-close
 
-1. Create a checkpoint.
-2. Review due threads.
-3. Review act-level arc movement.
-4. Review planning drift.
+- freeze a checkpoint
+- review due threads and drift
 
 ### Volume-close
 
-1. Create a checkpoint.
-2. Review canon integrity.
-3. Review theme and resonance.
-4. Sync reader-facing manuscript output.
+- freeze a checkpoint
+- audit canon, resonance, and output sync
 
 ---
 
-## 8. Reconstruction order from an empty folder
+## 9. Reconstruction order
 
-### Step 1. Create root
-
-Create:
-
-```text
-README.md
-00_system/
-01_world/
-02_sources/
-03_manuscript/
-```
-
-### Step 2. Create system layer
-
-Inside `00_system/`, create:
-
-- `SCHEMA.md`
-- `MASTER_AGENT.md`
-- `ULTRA_LONGFORM.md`
-- `AUTHORITY_MATRIX.md`
-- `SOURCE_INGEST_PROTOCOL.md`
-- `VOICE_CONTRACT.md`
-- `STRUCTURAL_REINFORCEMENT.md`
-- `CHAPTER_BUILD_CHECKLIST.md`
-- `ACT_CLOSE_CHECKLIST.md`
-- `VOLUME_CLOSE_CHECKLIST.md`
-- `CONTINUITY_AUDIT_CHECKLIST.md`
-
-### Step 3. Create all template families
-
-Inside `00_system/templates/`, create:
-
-- `arc/`
-- `architecture/`
-- `canon/`
-- `checkpoint/`
-- `object_agent/`
-- `pulse/`
-- `reader/`
-- `scene/`
-- `subtext/`
-- `thread/`
-- `timeline/`
-- `traction/`
-
-### Step 4. Create live world subdirectories
-
-Inside `01_world/`, create:
-
-- `architecture/`
-- `arcs/`
-- `canon/`
-- `checkpoints/`
-- `indexes/`
-- `objects/`
-- `pulse/`
-- `reader/`
-- `scenes/`
-- `subtext/`
-- `threads/`
-- `timeline/`
-- `traction/`
-
-### Step 5. Create object categories
-
-Inside `01_world/objects/`, create:
-
-- `characters/`
-- `locations/`
-- `items/`
-- `forces/`
-
-### Step 6. Create base navigation and dashboard files
-
-Create:
-
-- `index.md`
-- `log.md`
-- `object-index.md`
-- `character-index.md`
-- `thread-dashboard.md`
-
-### Step 7. Create core boards
-
-Create:
-
-- arc boards
-- architecture boards
-- thread ledger
-- master timeline
-- canon laws
-- continuity watchlist
-- pulse board
-- reader boards
-- traction board
-
-### Step 8. Create object folders
-
-For each live object, create the five-file minimum contract.
-
-### Step 9. Create scene folders
-
-For each scene, create the four-file minimum contract.
-If scene-level emotion tracking is active, also add `emotion-map.md`.
-
-### Step 10. Create manuscript layer
-
-Create:
-
-- `03_manuscript/README.md`
-- one or more compiled manuscripts
-
-### Step 11. Freeze finished boundaries
-
-When the first coherent act or volume exists, create a checkpoint.
+1. create root folders
+2. create system documents
+3. create template families
+4. create `01_world/` subdirectories
+5. create object category folders
+6. create base board files
+7. create dashboard files
+8. create intake and manuscript READMEs
+9. create objects, scenes, checkpoints only when a new story actually starts
 
 ---
 
-## 9. Scene partition policy
+## 10. Structure-only reset rule
 
-Use these thresholds:
+If a completed story begins to interfere with architecture work:
 
-- single pilot or single-volume draft: flat scenes allowed
-- beginning of `volume-002`: partition by volume
-- larger multi-volume work: partition by volume and act
-- chapter-heavy work: add chapter folders beneath act folders
+- remove story-specific object folders
+- remove story-specific scene folders
+- remove story-specific checkpoints
+- remove compiled manuscript files
+- reset live world boards to generic scaffold state
+- keep system rules and templates intact
 
-Do not wait until hundreds of scenes already exist.
-
----
-
-## 10. Current pilot-specific content
-
-The workspace is already tested by a complete pilot tragedy.
-
-### Current pilot object set
-
-- characters: `namju`, `sumin`, `fake-artist`
-- location: `atelier-room`
-- item: `ghost-paintings`
-- forces: `poverty`, `guilt`, `sunset`
-
-### Current pilot scene set
-
-- `story-core`
-- `scene-001-room-at-dusk`
-- `scene-002-gallery-visit`
-- `scene-003-sumin-alone`
-- `scene-004-the-price`
-- `scene-005-return-and-crack`
-- `scene-006-blood-on-wrist`
-- `scene-007-the-truth-breaks`
-- `scene-008-plan-to-kill`
-- `scene-009-failed-revenge`
-- `scene-010-sunset-fall`
-
-### Current pilot manuscript
-
-- `03_manuscript/노을 아래, 끝내.md`
-
-### Current frozen checkpoint
-
-- `checkpoint-001-end-of-volume-001.md`
+This workspace is currently in that reset state.
 
 ---
 
@@ -667,13 +358,7 @@ The workspace is already tested by a complete pilot tragedy.
 
 To reproduce the current system correctly, remember this:
 
-- objects are not scenes
-- scenes are not arcs
-- arcs are not plans
-- plans are not canon
-- canon is not output
-- checkpoints freeze the past
-- reader state is not author memory
-- traction is not the same thing as thread count
-
-If those distinctions remain intact, the structure can survive very large fiction.
+- system docs define the operating law
+- templates define repeatable file contracts
+- live world boards define the active runtime structure
+- no story is loaded until new objects, scenes, and checkpoints are created

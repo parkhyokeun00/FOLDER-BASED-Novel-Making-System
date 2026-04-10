@@ -1,3 +1,8 @@
 # Manuscript
 
-- `노을 아래, 끝내.md`: scene-001 through scene-010 integrated into one continuous short story manuscript.
+Reader-facing compiled drafts live here.
+
+Current state:
+
+- no active manuscript loaded
+- add compiled output only after a new story test or drafting run begins

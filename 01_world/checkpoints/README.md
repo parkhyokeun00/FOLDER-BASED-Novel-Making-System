@@ -2,6 +2,10 @@
 
 Use this folder for frozen canon snapshots.
 
+Current state:
+
+- no active checkpoints loaded
+
 Recommended naming:
 
 - `checkpoint-001-end-of-act-01.md`

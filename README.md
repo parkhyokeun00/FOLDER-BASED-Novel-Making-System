@@ -2,7 +2,8 @@
 
 This workspace is a folder-based novel wiki where each object in the world can be represented as its own agent folder.
 
-It is designed to stay useful from a short tragic pilot all the way to ultra-long serialized fiction.
+It is currently kept in a structure-only state.
+No active story world, pilot cast, or manuscript is loaded.
 
 ## Core concept
 
@@ -106,6 +107,6 @@ If two boards disagree, resolve the conflict through `00_system/AUTHORITY_MATRIX
 
 ## Current state
 
-- the pilot tragedy is complete
-- the workspace now includes long-form and ultra-long-form reinforcement
-- the next expansion path is multi-volume fiction using the hardened cadence, reader, pulse, subtext, and traction layers
+- the workspace contains system rules, templates, and empty live-world scaffolding
+- previous pilot-specific objects, scenes, checkpoints, and manuscript content have been removed
+- the next step is to test the structure with a completely new story case rather than extending old material

@@ -1,28 +1,27 @@
 # Volume Map
 
-## Volume 001
+## Volume
 
-- id: volume-001
-- title: pilot tragedy
-- status: drafted
-- purpose: prove the structure with a complete tragic short work
+- id:
+- title:
+- status: planned | drafting | locked
+- purpose:
 
 ## Start / End state
 
-- opening state: impoverished lovers still believe endurance might be enough
-- ending state: both lovers die after failed revenge and total defeat
+- opening state:
+- ending state:
 
 ## Act breakdown
 
-- act-01: pressure, exploitation visibility, inner fracture
-- act-02: guilt, bodily collapse, truth discovery
-- act-03: revenge plan, failed action, final fall
+- act-01:
+- act-02:
+- act-03:
 
 ## Major reveals
 
-- sumin crossed the line with fake-artist under the pressure of poverty
-- namju discovers the truth through the envelope and card
+- none yet
 
 ## Thread obligations
 
-- all major pilot threads resolved inside volume-001
+- none yet
