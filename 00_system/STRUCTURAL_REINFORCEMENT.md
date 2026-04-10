@@ -24,7 +24,10 @@ Apply these now:
 - use `START_READINESS_GATE.md` before drafting begins
 - use `SYSTEM_SMOKE_AUDIT.md` right before a real launch
 - use `PREWRITE_SIMULATION_TEST.md` before loading a real story
+- use `PRE_CHAPTER_SYNC_GATE.md` before drafting continuity-sensitive chapters
+- use `CHAPTER_EXTENSION_GATE.md` before accepting a chapter that may be over-compressed
 - use `CHAPTER_BUILD_CHECKLIST.md`
+- use `BOARD_FRESHNESS_AUDIT.md` before moving to the next chapter
 - use `CONTINUITY_AUDIT_CHECKLIST.md`
 - use `SOURCE_INGEST_PROTOCOL.md`
 

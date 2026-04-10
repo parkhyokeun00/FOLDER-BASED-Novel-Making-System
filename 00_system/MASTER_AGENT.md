@@ -44,11 +44,12 @@ When creating a scene, the master agent should:
 6. Read relevant `links.md`, `hooks.md`, and `evolution.md` when the story is large enough to need them.
 7. Read relevant arc boards, thread entries, timeline entries, and latest checkpoint.
 8. Read reader, pulse, subtext, and traction boards when suspense or long-form pacing matters.
-9. Draft the scene.
-10. Run the editor pass.
-11. Save `draft.md`, `aftermath.md`, and `emotion-map.md` if used.
-12. If the unit is chapter-scale, use a chapter packet and then run `CHAPTER_ACCEPTANCE_GATE.md`.
-13. Propagate updates according to the cadence rules in `SCHEMA.md`.
+9. Reopen relevant parsed source notes when the chapter depends on adaptation, research, or previously filtered source material.
+10. Draft the scene.
+11. Run the editor pass.
+12. Save `draft.md`, `aftermath.md`, and `emotion-map.md` if used.
+13. If the unit is chapter-scale, use a chapter packet, then run `CHAPTER_EXTENSION_GATE.md` and `CHAPTER_ACCEPTANCE_GATE.md`.
+14. Propagate updates according to the cadence rules in `SCHEMA.md`.
 
 ## Aftermath-first propagation
 
@@ -88,6 +89,7 @@ Summon agents not only for people, but also for:
 - maintain continuity across object state, arc state, and reader state
 - preserve the difference between locked canon and revisable plan state
 - protect voice and prose texture, not only plot correctness
+- avoid reader-facing prose that exposes outline numbering or internal drafting labels unless intentionally metafictional
 
 ## Arc and reader awareness
 
@@ -104,6 +106,8 @@ The master agent should always ask:
 - What is the reader now likely to misunderstand?
 - What is the emotional texture of this scene compared with the last three?
 - Does this scene force the act, chapter, or volume plan to change?
+- Is the next chapter being invited, or merely cut to?
+- Has this chapter spent enough time inside lived experience rather than only summarizing what happened?
 
 If the answer changes the story's long-range direction, the corresponding board must be updated.
 
@@ -140,6 +144,23 @@ A low-intensity scene may remain if all are true:
 
 Breathing scenes must still leave residue.
 They cannot be empty.
+
+## Human-life anchor rule
+
+When the chapter handles recovery, aftermath, grief, domesticity, or survival cost, the draft should include at least one concrete ordinary-life anchor.
+
+This may be:
+
+- cleaning
+- food
+- clothing
+- sleep
+- transport
+- paperwork
+- household repair
+- a repeated private habit
+
+These details should thicken consequence, not decorate it.
 
 ## Traction rule
 

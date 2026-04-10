@@ -18,6 +18,7 @@ If the chapter changed one of the following, confirm the board is updated:
 - reader memory
 - misreading design
 - traction log
+- source reference notes when the chapter materially depended on outside material
 
 Mark anything missing as `STALE` until updated or explicitly waived.
 
@@ -40,6 +41,7 @@ Mark anything missing as `STALE` until updated or explicitly waived.
 - Has POV voice drifted?
 - Has exposition flattened subtext?
 - Has chapter pacing become monotonous in texture or closing force?
+- Has reader-facing prose leaked internal chapter numbering or planning language?
 
 ## Audit outcome
 

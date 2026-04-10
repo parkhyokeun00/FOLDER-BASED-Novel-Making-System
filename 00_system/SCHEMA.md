@@ -210,7 +210,9 @@ As the project grows, also maintain:
 - update `emotional-pulse.md`
 - update `continuity-watchlist.md` if risk appeared
 - record traction in `traction-log.md`
+- run `CHAPTER_EXTENSION_GATE.md`
 - run `CHAPTER_ACCEPTANCE_GATE.md`
+- run `BOARD_FRESHNESS_AUDIT.md`
 
 ### Act-close
 
@@ -289,8 +291,11 @@ For shortform starts, also use:
 
 For chapter execution, also use:
 
+- `00_system/PRE_CHAPTER_SYNC_GATE.md`
 - `00_system/CHAPTER_PACKET_PROTOCOL.md`
+- `00_system/CHAPTER_EXTENSION_GATE.md`
 - `00_system/CHAPTER_ACCEPTANCE_GATE.md`
+- `00_system/BOARD_FRESHNESS_AUDIT.md`
 
 ## Scene partition rule
 

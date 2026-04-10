@@ -4,6 +4,7 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 
 ## Before writing
 
+- Run `PRE_CHAPTER_SYNC_GATE.md`.
 - Read the relevant `chapter-map.md` entry.
 - Prepare or review the chapter packet for the chapter.
 - Read the active POV entry in `pov-map.md`.
@@ -20,6 +21,8 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Read `traction-log.md` to see what promise the last chapter left behind.
 - Decide in advance which arc, thread, or relationship will move, deepen, echo, or deliberately pause.
 - Decide whether this chapter is a pressure chapter, reveal chapter, breathing chapter, or closing chapter.
+- Name the chapter's lived sensory center.
+- If the chapter includes aftermath, recovery, or human cost, name one human-life anchor.
 - If this is chapter 1, complete `first-scene-preflight.md` or its equivalent setup first.
 
 ## After writing
@@ -38,6 +41,8 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Update `traction-log.md` with the chapter-closing pull.
 - Update chapter status in `chapter-map.md`.
 - Add any continuity risk to `continuity-watchlist.md`.
+- Run `CHAPTER_EXTENSION_GATE.md`.
 - Run `CHAPTER_ACCEPTANCE_GATE.md`.
+- Run `BOARD_FRESHNESS_AUDIT.md`.
 - Run `CONTINUITY_AUDIT_CHECKLIST.md`.
 - Create a checkpoint if a major act or volume boundary was crossed.

@@ -45,7 +45,10 @@ This workspace now includes explicit prewrite documents for deciding when struct
 - `SYSTEM_SMOKE_AUDIT.md`
 - `SHORTFORM_START_PROTOCOL.md`
 - `CHAPTER_PACKET_PROTOCOL.md`
+- `PRE_CHAPTER_SYNC_GATE.md`
+- `CHAPTER_EXTENSION_GATE.md`
 - `CHAPTER_ACCEPTANCE_GATE.md`
+- `BOARD_FRESHNESS_AUDIT.md`
 - `STRUCTURE_DONE_DEFINITION.md`
 - `COMPLEXITY_BUDGET.md`
 

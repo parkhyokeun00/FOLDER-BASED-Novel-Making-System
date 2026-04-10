@@ -76,3 +76,9 @@ Treat them as inspiration inputs, not factual authorities.
 ## Provenance rule
 
 When a source materially changes the story system, record the destination in the source note and record the source in the affected downstream note when useful.
+
+## Chapter re-entry rule
+
+If a chapter depends on source-derived material, reopen the relevant parsed or canon-integrated notes before drafting.
+
+The chapter packet should record the reference set actually used.

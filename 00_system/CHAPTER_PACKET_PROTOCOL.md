@@ -12,14 +12,17 @@ The packet is the single working surface for the writer.
 - primary storyline
 - secondary storyline if any
 - chapter purpose
+- reference set used before drafting
+- lived sensory center
 - one active reader desire
 - one active reader fear
 - one live misunderstanding or controlled blind spot
 - one subtext pressure
+- one human-life anchor if the chapter handles aftermath, recovery, domesticity, or cost
 - closing traction target
+- handoff quality target
 - one thing this chapter must never reveal too early
 
 ## Rule
 
 If the writer cannot fill this packet clearly, the chapter is not ready to draft.
-

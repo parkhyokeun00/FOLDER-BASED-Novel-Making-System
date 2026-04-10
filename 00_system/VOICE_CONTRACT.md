@@ -26,6 +26,11 @@ Style drift is a continuity problem.
 - Keep dialogue faithful to class, education, stress, shame, power, and concealment.
 - Preserve subtext. People often say the wrong thing for the right reason.
 
+## Reader-facing integrity rule
+
+- Do not leave internal drafting labels in the prose.
+- Avoid phrases that expose outline scaffolding such as raw chapter numbering, board references, or planning language unless the work is intentionally metafictional.
+
 ## POV variation
 
 Each POV entry in `pov-map.md` should define:
