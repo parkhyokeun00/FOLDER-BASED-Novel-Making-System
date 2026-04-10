@@ -68,6 +68,8 @@ For true ultra-long form, also maintain:
 - `resonance-map.md`
 - `storyline-weave.md`
 - `subtext-registry.md`
+- `canon-ratification-ledger.md`
+- `volume-handoff-reentry.md`
 
 ## Cadence model
 
@@ -202,6 +204,17 @@ Use `00_system/SOURCE_INGEST_PROTOCOL.md` and keep `02_sources/` structured enou
 - interpreted material
 - canon-integrated claims
 - discarded or deprecated claims
+
+## Start gate rule
+
+Do not begin a real ultra-long story because the structure feels impressive.
+
+Before drafting starts:
+
+- pass `START_READINESS_GATE.md`
+- run `PREWRITE_SIMULATION_TEST.md`
+- complete `VOLUME_001_LAUNCH_PROTOCOL.md`
+- confirm the design is done enough through `STRUCTURE_DONE_DEFINITION.md`
 
 ## Why this works
 

@@ -5,6 +5,7 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 ## Before writing
 
 - Read the relevant `chapter-map.md` entry.
+- Prepare or review the chapter packet for the chapter.
 - Read the active POV entry in `pov-map.md`.
 - Confirm the POV's blind spots and forbidden knowledge.
 - Read the related object folders.
@@ -12,11 +13,14 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Read active and due thread entries.
 - Read the latest relevant timeline entries.
 - Read the latest checkpoint if the story is already large.
+- Read `opening-promise.md` if still in the opening run.
 - Read recent `emotional-pulse.md` entries and check the last three chapter textures.
 - Read `reader-memory-model.md` for anything that needs reminder or protection.
+- Read `reader-desire-state.md` for what the reader should currently want or fear.
 - Read `traction-log.md` to see what promise the last chapter left behind.
 - Decide in advance which arc, thread, or relationship will move, deepen, echo, or deliberately pause.
 - Decide whether this chapter is a pressure chapter, reveal chapter, breathing chapter, or closing chapter.
+- If this is chapter 1, complete `first-scene-preflight.md` or its equivalent setup first.
 
 ## After writing
 
@@ -30,8 +34,10 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Update `emotional-pulse.md`.
 - Update `reader-memory-model.md` if memory state changed.
 - Update `misreading-design.md` if a controlled misunderstanding deepened or broke.
+- Update `reader-desire-state.md` if reader desire or fear materially changed.
 - Update `traction-log.md` with the chapter-closing pull.
 - Update chapter status in `chapter-map.md`.
 - Add any continuity risk to `continuity-watchlist.md`.
+- Run `CHAPTER_ACCEPTANCE_GATE.md`.
 - Run `CONTINUITY_AUDIT_CHECKLIST.md`.
 - Create a checkpoint if a major act or volume boundary was crossed.

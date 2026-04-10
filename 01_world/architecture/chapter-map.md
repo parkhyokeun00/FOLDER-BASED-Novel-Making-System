@@ -8,6 +8,8 @@
 - act:
 - pov:
 - status: planned | drafted | revised | locked
+- packet status: not-started | prepared | ready
+- acceptance: pending | accepted | revise
 - purpose:
 - main change:
 - thematic variation:

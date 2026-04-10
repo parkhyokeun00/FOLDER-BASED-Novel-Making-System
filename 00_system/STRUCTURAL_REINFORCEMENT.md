@@ -17,9 +17,13 @@ Preserve four things at once:
 
 Apply these now:
 
+- use `NEW_STORY_BOOTSTRAP.md`
 - use `aftermath.md` as the update hub
 - use the cadence model from `SCHEMA.md`
 - use `AUTHORITY_MATRIX.md` for question-by-question truth lookup
+- use `START_READINESS_GATE.md` before drafting begins
+- use `SYSTEM_SMOKE_AUDIT.md` right before a real launch
+- use `PREWRITE_SIMULATION_TEST.md` before loading a real story
 - use `CHAPTER_BUILD_CHECKLIST.md`
 - use `CONTINUITY_AUDIT_CHECKLIST.md`
 - use `SOURCE_INGEST_PROTOCOL.md`

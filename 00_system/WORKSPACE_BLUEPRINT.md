@@ -84,15 +84,33 @@ README.md
 00_system/
   ACT_CLOSE_CHECKLIST.md
   AUTHORITY_MATRIX.md
+  CANON_RATIFICATION_PROTOCOL.md
+  CANON_CONTAMINATION_FIREWALL.md
+  CHAPTER_ACCEPTANCE_GATE.md
   CHAPTER_BUILD_CHECKLIST.md
+  CHAPTER_PACKET_PROTOCOL.md
+  COMPLEXITY_BUDGET.md
   CONTINUITY_AUDIT_CHECKLIST.md
+  FAILURE_RECOVERY_RULES.md
+  GOLDEN_EXECUTION_FIXTURE.md
   MASTER_AGENT.md
+  NEW_STORY_BOOTSTRAP.md
+  PREWRITE_SIMULATION_TEST.md
+  ROLE_MODES.md
   SCHEMA.md
+  SERIES_START_PROTOCOL.md
+  SYSTEM_SMOKE_AUDIT.md
   SOURCE_INGEST_PROTOCOL.md
+  START_READINESS_GATE.md
   STRUCTURAL_REINFORCEMENT.md
+  STRUCTURE_DONE_DEFINITION.md
+  SHORTFORM_START_PROTOCOL.md
   ULTRA_LONGFORM.md
+  VOLUME_001_LAUNCH_PROTOCOL.md
+  VOLUME_HANDOFF_REENTRY_PROTOCOL.md
   VOICE_CONTRACT.md
   VOLUME_CLOSE_CHECKLIST.md
+  WORLD_SEED_CONTRACT.md
   WORKSPACE_BLUEPRINT.md
   templates/
     arc/
@@ -112,11 +130,17 @@ README.md
   architecture/
     act-map.md
     chapter-map.md
+    ending-lock.md
+    early-payoff-schedule.md
+    opening-10-blueprint.md
+    opening-promise.md
     pov-map.md
     resonance-map.md
     series-bible.md
     storyline-weave.md
+    volume-handoff-reentry.md
     volume-map.md
+    world-seed.md
   arcs/
     character-state-arc.md
     foreshadow-payoff-arc.md
@@ -124,8 +148,10 @@ README.md
     thematic-compass.md
     world-conflict-arc.md
   canon/
+    canon-ratification-ledger.md
     canon-laws.md
     continuity-watchlist.md
+    taboo-registry.md
   checkpoints/
     README.md
   indexes/
@@ -147,6 +173,7 @@ README.md
     emotional-pulse.md
   reader/
     misreading-design.md
+    reader-desire-state.md
     reader-memory-model.md
   scenes/
     README.md
@@ -179,10 +206,28 @@ Required system documents:
 - `SOURCE_INGEST_PROTOCOL.md`
 - `VOICE_CONTRACT.md`
 - `STRUCTURAL_REINFORCEMENT.md`
+- `NEW_STORY_BOOTSTRAP.md`
 - `CHAPTER_BUILD_CHECKLIST.md`
 - `ACT_CLOSE_CHECKLIST.md`
 - `VOLUME_CLOSE_CHECKLIST.md`
 - `CONTINUITY_AUDIT_CHECKLIST.md`
+- `START_READINESS_GATE.md`
+- `VOLUME_001_LAUNCH_PROTOCOL.md`
+- `SERIES_START_PROTOCOL.md`
+- `PREWRITE_SIMULATION_TEST.md`
+- `SYSTEM_SMOKE_AUDIT.md`
+- `CANON_CONTAMINATION_FIREWALL.md`
+- `CANON_RATIFICATION_PROTOCOL.md`
+- `CHAPTER_PACKET_PROTOCOL.md`
+- `CHAPTER_ACCEPTANCE_GATE.md`
+- `COMPLEXITY_BUDGET.md`
+- `FAILURE_RECOVERY_RULES.md`
+- `GOLDEN_EXECUTION_FIXTURE.md`
+- `ROLE_MODES.md`
+- `STRUCTURE_DONE_DEFINITION.md`
+- `SHORTFORM_START_PROTOCOL.md`
+- `VOLUME_HANDOFF_REENTRY_PROTOCOL.md`
+- `WORLD_SEED_CONTRACT.md`
 - `WORKSPACE_BLUEPRINT.md`
 
 These files define how the workspace behaves.
@@ -231,6 +276,15 @@ Long-range story change boards.
 
 Future-facing structure boards.
 
+Also includes launch-stage boards such as:
+
+- `world-seed.md`
+- `opening-promise.md`
+- `ending-lock.md`
+- `opening-10-blueprint.md`
+- `early-payoff-schedule.md`
+- `volume-handoff-reentry.md`
+
 ### `threads/`
 
 Open obligations and unresolved promises.
@@ -247,6 +301,10 @@ Emotional rhythm.
 
 Reader memory and controlled misreading.
 
+Launch-stage reader pressure may also be tracked in:
+
+- `reader-desire-state.md`
+
 ### `subtext/`
 
 Surface/underlayer meaning.
@@ -258,6 +316,11 @@ Page-turn and volume-turn force.
 ### `canon/`
 
 Stable rules and contradiction watch.
+
+Optional expansion:
+
+- `taboo-registry.md`
+- `canon-ratification-ledger.md`
 
 ### `checkpoints/`
 
@@ -335,7 +398,8 @@ Use `00_system/AUTHORITY_MATRIX.md` when a question mixes multiple truth types.
 6. create base board files
 7. create dashboard files
 8. create intake and manuscript READMEs
-9. create objects, scenes, checkpoints only when a new story actually starts
+9. create launch-ready boards such as `world-seed.md`, `opening-promise.md`, `ending-lock.md`, and `reader-desire-state.md`
+10. create objects, scenes, checkpoints only when a new story actually starts
 
 ---
 

@@ -40,5 +40,7 @@ Run this at the end of every volume.
 - Create a checkpoint.
 - Update key `evolution.md` files if used.
 - Sync traction, reader, and pulse boards.
+- Update `volume-handoff-reentry.md`.
+- Record any newly binding truths in `canon-ratification-ledger.md`.
 - Confirm manuscript output matches the frozen state.
 - Define entry conditions for the next volume.

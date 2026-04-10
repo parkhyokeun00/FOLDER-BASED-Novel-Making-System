@@ -8,6 +8,10 @@
 - conflict:
 - current phase:
 - relation to main line:
+- latest appearance:
+- next re-entry by:
+- re-entry mode: direct | echo | mention
+- warning threshold:
 
 ## Weave Note
 

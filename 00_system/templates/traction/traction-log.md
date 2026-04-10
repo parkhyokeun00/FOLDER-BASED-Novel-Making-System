@@ -4,6 +4,7 @@
 
 - chapter:
 - traction type:
-- closing device:
+- exit effect:
+- closing device or last-line intention:
 - next chapter response:
 - notes:

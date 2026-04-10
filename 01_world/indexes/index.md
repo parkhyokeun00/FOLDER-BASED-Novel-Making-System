@@ -23,3 +23,15 @@ This workspace is currently in structure-only mode.
 - no active scenes loaded
 - no active manuscript loaded
 - system and templates are ready for a new test case
+
+## Start-ready boards
+
+- `architecture/world-seed.md`
+- `architecture/opening-promise.md`
+- `architecture/ending-lock.md`
+- `architecture/opening-10-blueprint.md`
+- `architecture/early-payoff-schedule.md`
+- `architecture/volume-handoff-reentry.md`
+- `reader/reader-desire-state.md`
+- `canon/taboo-registry.md`
+- `canon/canon-ratification-ledger.md`

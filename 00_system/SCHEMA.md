@@ -70,14 +70,20 @@ Recommended advanced arc boards:
 
 Required architecture boards:
 
+- `world-seed.md`
 - `series-bible.md`
 - `volume-map.md`
 - `act-map.md`
 - `chapter-map.md`
 - `pov-map.md`
+- `opening-promise.md`
+- `ending-lock.md`
 
 Recommended advanced architecture boards:
 
+- `volume-handoff-reentry.md`
+- `opening-10-blueprint.md`
+- `early-payoff-schedule.md`
 - `resonance-map.md`
 - `storyline-weave.md`
 
@@ -88,6 +94,7 @@ Stories expected to survive beyond a short pilot should maintain:
 - `01_world/pulse/emotional-pulse.md`
 - `01_world/reader/reader-memory-model.md`
 - `01_world/reader/misreading-design.md`
+- `01_world/reader/reader-desire-state.md`
 - `01_world/subtext/subtext-registry.md`
 - `01_world/traction/traction-log.md`
 
@@ -148,6 +155,7 @@ Required canon boards:
 Recommended advanced canon boards:
 
 - `taboo-registry.md`
+- `canon-ratification-ledger.md`
 
 ## Checkpoint contract
 
@@ -202,6 +210,7 @@ As the project grows, also maintain:
 - update `emotional-pulse.md`
 - update `continuity-watchlist.md` if risk appeared
 - record traction in `traction-log.md`
+- run `CHAPTER_ACCEPTANCE_GATE.md`
 
 ### Act-close
 
@@ -259,6 +268,29 @@ Suggested creative intake streams:
 - `voice-notes`
 
 See `00_system/SOURCE_INGEST_PROTOCOL.md`.
+
+## Start protocol rule
+
+Before a real story begins, do not jump directly into chapter 1.
+
+Use:
+
+- `00_system/NEW_STORY_BOOTSTRAP.md`
+- `00_system/WORLD_SEED_CONTRACT.md`
+- `00_system/START_READINESS_GATE.md`
+- `00_system/VOLUME_001_LAUNCH_PROTOCOL.md`
+- `00_system/SERIES_START_PROTOCOL.md`
+- `00_system/PREWRITE_SIMULATION_TEST.md`
+- `00_system/SYSTEM_SMOKE_AUDIT.md`
+
+For shortform starts, also use:
+
+- `00_system/SHORTFORM_START_PROTOCOL.md`
+
+For chapter execution, also use:
+
+- `00_system/CHAPTER_PACKET_PROTOCOL.md`
+- `00_system/CHAPTER_ACCEPTANCE_GATE.md`
 
 ## Scene partition rule
 

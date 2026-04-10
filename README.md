@@ -19,7 +19,7 @@ No active story world, pilot cast, or manuscript is loaded.
 - `01_world/objects/`: one folder per world object
 - `01_world/scenes/`: one folder per scene or scene bundle
 - `01_world/arcs/`: long-running change tracks for characters, relationships, world conflicts, motifs, and theme
-- `01_world/architecture/`: series, volume, act, chapter, POV, resonance, and storyline planning boards
+- `01_world/architecture/`: series, volume, act, chapter, POV, world seed, opening promise, ending lock, early payoff, resonance, and storyline planning boards
 - `01_world/threads/`: plot-thread and promise ledgers
 - `01_world/timeline/`: chronology and event-order truth
 - `01_world/pulse/`: emotional rhythm across scenes and chapters
@@ -31,6 +31,23 @@ No active story world, pilot cast, or manuscript is loaded.
 - `01_world/indexes/`: indexes, dashboards, and logs
 - `02_sources/`: raw notes, research, fragments, mood boards, and source material
 - `03_manuscript/`: compiled reader-facing drafts
+
+## Start-before-writing layer
+
+This workspace now includes explicit prewrite documents for deciding when structure is done enough to begin drafting:
+
+- `NEW_STORY_BOOTSTRAP.md`
+- `WORLD_SEED_CONTRACT.md`
+- `START_READINESS_GATE.md`
+- `VOLUME_001_LAUNCH_PROTOCOL.md`
+- `SERIES_START_PROTOCOL.md`
+- `PREWRITE_SIMULATION_TEST.md`
+- `SYSTEM_SMOKE_AUDIT.md`
+- `SHORTFORM_START_PROTOCOL.md`
+- `CHAPTER_PACKET_PROTOCOL.md`
+- `CHAPTER_ACCEPTANCE_GATE.md`
+- `STRUCTURE_DONE_DEFINITION.md`
+- `COMPLEXITY_BUDGET.md`
 
 ## Scale hierarchy
 

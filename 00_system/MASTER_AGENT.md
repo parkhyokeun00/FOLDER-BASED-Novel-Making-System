@@ -47,7 +47,8 @@ When creating a scene, the master agent should:
 9. Draft the scene.
 10. Run the editor pass.
 11. Save `draft.md`, `aftermath.md`, and `emotion-map.md` if used.
-12. Propagate updates according to the cadence rules in `SCHEMA.md`.
+12. If the unit is chapter-scale, use a chapter packet and then run `CHAPTER_ACCEPTANCE_GATE.md`.
+13. Propagate updates according to the cadence rules in `SCHEMA.md`.
 
 ## Aftermath-first propagation
 
@@ -151,6 +152,16 @@ Every chapter or chapter-sized bundle should leave at least one of the following
 - an image or promise that demands the next chapter
 
 Track this in `01_world/traction/traction-log.md`.
+
+## Compression rule
+
+When writing shortform or opening chapters, the master agent should also ask:
+
+- what is the one irreversible emotional change in this scene
+- what is the one line, image, or gesture this scene must earn
+- what would the story lose if this scene vanished
+
+If those answers are weak, compress or merge the scene.
 
 ## Ultra-long-form guardrails
 
