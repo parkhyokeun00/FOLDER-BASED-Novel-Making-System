@@ -70,3 +70,9 @@ If those answers are weak, do not add the board.
 ## Rule
 
 No new permanent board without a clear failure it prevents.
+
+## Anti-compression rule
+
+Do not let system discipline force the story into a smaller form than the material can actually carry.
+
+If the target is long-form, but the draft keeps behaving like compressed shortform, use expansion rules before adding more abstraction.

@@ -39,6 +39,7 @@ Define:
 - the volume question
 - the opening state
 - the ending state
+- the expected chapter or movement range
 - one answered promise
 - one sharpened carry-over hunger
 
@@ -49,6 +50,7 @@ For long-form, complete:
 - `opening-10-blueprint.md`
 - `early-payoff-schedule.md`
 - `reader-desire-state.md`
+- `LONGFORM_EXPANSION_PROTOCOL.md` if the draft keeps collapsing back into shortform scale
 
 For shortform or novella, use `SHORTFORM_START_PROTOCOL.md` instead of the full opening-10 board.
 
@@ -81,3 +83,10 @@ If the simulation fails, return to design.
 
 Complete `START_READINESS_GATE.md`.
 Only after approval should actual drafting begin.
+
+## Step 9. Protect long-form scale
+
+If the project is long-form:
+
+- define a chapter-003 scale check
+- if the draft is collapsing into shortform compression by then, pause and run `LONGFORM_EXPANSION_PROTOCOL.md`

@@ -23,6 +23,7 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Decide whether this chapter is a pressure chapter, reveal chapter, breathing chapter, or closing chapter.
 - Name the chapter's lived sensory center.
 - If the chapter includes aftermath, recovery, or human cost, name one human-life anchor.
+- If this is a long-form project, know what chapter-003 should prove about scale.
 - If this is chapter 1, complete `first-scene-preflight.md` or its equivalent setup first.
 
 ## After writing
@@ -42,7 +43,9 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Update chapter status in `chapter-map.md`.
 - Add any continuity risk to `continuity-watchlist.md`.
 - Run `CHAPTER_EXTENSION_GATE.md`.
+- If the chapter is structurally right but prose-flat, run `PRODUCTION_REWRITE_MODE.md`.
 - Run `CHAPTER_ACCEPTANCE_GATE.md`.
+- If this is chapter 3 in a long-form project, run the chapter-003 scale check from `LONGFORM_EXPANSION_PROTOCOL.md`.
 - Run `BOARD_FRESHNESS_AUDIT.md`.
 - Run `CONTINUITY_AUDIT_CHECKLIST.md`.
 - Create a checkpoint if a major act or volume boundary was crossed.

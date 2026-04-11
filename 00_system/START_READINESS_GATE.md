@@ -12,6 +12,10 @@ Its job is to answer one question:
 - `HOLD`: promising, but at least one blocking gap remains
 - `REJECTED`: structure is still too incomplete or too unstable
 
+## Manuscript creation rule
+
+No first real manuscript file should be created in `03_manuscript/` until this gate is `APPROVED`.
+
 ## Minimum gate for any story
 
 - the world seed is written

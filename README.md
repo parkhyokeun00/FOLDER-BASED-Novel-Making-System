@@ -49,6 +49,8 @@ This workspace now includes explicit prewrite documents for deciding when struct
 - `CHAPTER_EXTENSION_GATE.md`
 - `CHAPTER_ACCEPTANCE_GATE.md`
 - `BOARD_FRESHNESS_AUDIT.md`
+- `LONGFORM_EXPANSION_PROTOCOL.md`
+- `PRODUCTION_REWRITE_MODE.md`
 - `STRUCTURE_DONE_DEFINITION.md`
 - `COMPLEXITY_BUDGET.md`
 

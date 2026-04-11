@@ -23,6 +23,14 @@ Use explicit role modes.
 - checks pacing, traction, compression, and necessity
 - may reject or merge scenes
 
+## Production rewrite mode
+
+- rewrites structurally sound chapters for stronger scene life
+- improves dialogue, silence, image return, and human texture
+- reduces explanation where action or object can carry meaning
+- does not redesign the volume from scratch
+- turns `structure-accepted` chapters into `production-ready` chapters
+
 ## Auditor mode
 
 - checks continuity
@@ -41,4 +49,5 @@ Use explicit role modes.
 1. Architect
 2. Writer
 3. Editor
-4. Auditor
+4. Production rewrite
+5. Auditor

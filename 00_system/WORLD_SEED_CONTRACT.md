@@ -6,12 +6,14 @@ Its job is to define the smallest stable story seed that every later board shoul
 
 ## Required seed fields
 
+- source stance
 - genre promise
 - central conflict
 - central lack or desire
 - world pressure
 - tone and aesthetic temperature
 - taboo or intensity boundary
+- ethical transformation rule
 - opening question
 - reader emotional promise
 
@@ -32,4 +34,3 @@ If the seed changes radically, revisit:
 - `reader-desire-state.md`
 - `volume-map.md`
 - `ending-lock.md`
-

@@ -3,6 +3,17 @@
 Use this as the single entry point when starting a brand-new story from a structure-only workspace.
 
 Its job is to remove startup hesitation.
+It is a hard gate, not a suggestion.
+
+## Raw motif intake rule
+
+Before writing any prose, decide:
+
+- is this original fiction, inspired fiction, adapted material, or transformed material
+- what must be protected or not repeated literally
+- what part of the source is structural fuel rather than sacred plot
+
+Do this inside `WORLD_SEED_CONTRACT.md`, not inside the first draft.
 
 ## Choose the mode first
 
@@ -23,6 +34,16 @@ Its job is to remove startup hesitation.
 9. run `SYSTEM_SMOKE_AUDIT.md`
 10. run `PREWRITE_SIMULATION_TEST.md`
 11. if both pass, stop designing and begin writing
+
+## Hard gate rule
+
+Do not create the first real manuscript file in `03_manuscript/` before:
+
+- `START_READINESS_GATE.md` is `APPROVED`
+- `SYSTEM_SMOKE_AUDIT.md` passes
+- `PREWRITE_SIMULATION_TEST.md` passes
+
+Notes and temporary scratch files may exist elsewhere, but reader-facing drafting should not begin before this gate clears.
 
 ## First live launch boards
 
@@ -59,4 +80,3 @@ Do not keep adding boards once all are true:
 - prewrite simulation passes
 
 When those are true, structure work is done enough.
-

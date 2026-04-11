@@ -32,6 +32,14 @@ The master agent should use two passes even when only one agent is writing.
 
 If the writer pass produces the scene, the editor pass must still review it before the system is updated.
 
+### Production rewrite pass
+
+- strengthen scene life without casually changing canon
+- improve dialogue texture and omission
+- add or sharpen ordinary-life anchors when consequence feels abstract
+- tune recurring images so they return with intention
+- remove explanation that the reader can already feel
+
 ## Scene orchestration
 
 When creating a scene, the master agent should:

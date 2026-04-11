@@ -4,6 +4,9 @@ Use this after a chapter is drafted and lightly revised.
 
 Do not move on only because words now exist.
 
+This gate certifies structural acceptance.
+It does not automatically mean the chapter is production-ready prose.
+
 ## Accept only if
 
 - the chapter leaves real traction
@@ -21,3 +24,10 @@ Do not move on only because words now exist.
 - it repeats a recent chapter's emotional function
 - it exists only to carry setup without living tension
 - it refers to internal chapter numbering or outline structure in reader-facing prose unless intentional metafiction
+
+## After structural acceptance
+
+If structure passes but prose still feels flat, compressed, or overexplained:
+
+- run `PRODUCTION_REWRITE_MODE.md`
+- only then mark the chapter production-ready

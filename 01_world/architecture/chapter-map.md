@@ -9,7 +9,8 @@
 - pov:
 - status: planned | drafted | revised | locked
 - packet status: not-started | prepared | ready
-- acceptance: pending | accepted | revise
+- structure acceptance: pending | accepted | revise
+- production readiness: pending | ready | revise
 - purpose:
 - main change:
 - thematic variation:

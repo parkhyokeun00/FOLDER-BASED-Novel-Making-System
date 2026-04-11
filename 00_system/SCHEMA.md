@@ -212,6 +212,7 @@ As the project grows, also maintain:
 - record traction in `traction-log.md`
 - run `CHAPTER_EXTENSION_GATE.md`
 - run `CHAPTER_ACCEPTANCE_GATE.md`
+- if needed, run `PRODUCTION_REWRITE_MODE.md` before marking the chapter production-ready
 - run `BOARD_FRESHNESS_AUDIT.md`
 
 ### Act-close
@@ -282,6 +283,7 @@ Use:
 - `00_system/START_READINESS_GATE.md`
 - `00_system/VOLUME_001_LAUNCH_PROTOCOL.md`
 - `00_system/SERIES_START_PROTOCOL.md`
+- `00_system/LONGFORM_EXPANSION_PROTOCOL.md` when the target is long-form but the draft keeps collapsing into shortform
 - `00_system/PREWRITE_SIMULATION_TEST.md`
 - `00_system/SYSTEM_SMOKE_AUDIT.md`
 
@@ -296,6 +298,7 @@ For chapter execution, also use:
 - `00_system/CHAPTER_EXTENSION_GATE.md`
 - `00_system/CHAPTER_ACCEPTANCE_GATE.md`
 - `00_system/BOARD_FRESHNESS_AUDIT.md`
+- `00_system/PRODUCTION_REWRITE_MODE.md` when structure is sound but prose still needs life
 
 ## Scene partition rule
 

@@ -28,6 +28,8 @@ Apply these now:
 - use `CHAPTER_EXTENSION_GATE.md` before accepting a chapter that may be over-compressed
 - use `CHAPTER_BUILD_CHECKLIST.md`
 - use `BOARD_FRESHNESS_AUDIT.md` before moving to the next chapter
+- use `LONGFORM_EXPANSION_PROTOCOL.md` when the draft undershoots the promised scale
+- use `PRODUCTION_REWRITE_MODE.md` when structure is right but the prose is still too functional
 - use `CONTINUITY_AUDIT_CHECKLIST.md`
 - use `SOURCE_INGEST_PROTOCOL.md`
 
