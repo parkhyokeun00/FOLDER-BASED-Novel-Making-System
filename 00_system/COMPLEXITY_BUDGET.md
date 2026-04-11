@@ -24,6 +24,23 @@ Avoid unless clearly justified:
 - advanced checkpoint rhythm
 - too many dashboards
 
+### Midform
+
+Required:
+
+- objects
+- scenes
+- a chapter or movement map
+- traction
+- one reader desire board
+
+Use selectively:
+
+- misreading design
+- subtext registry
+- pulse layer
+- simple evidence or investigation pattern support
+
 ### Long-form
 
 Required:
@@ -75,4 +92,9 @@ No new permanent board without a clear failure it prevents.
 
 Do not let system discipline force the story into a smaller form than the material can actually carry.
 
-If the target is long-form, but the draft keeps behaving like compressed shortform, use expansion rules before adding more abstraction.
+If the draft keeps behaving like a smaller form than the material needs:
+
+- use `MIDFORM_CASE_EXPANSION_GUIDE.md` when the case needs middle-length breathing room
+- use long-form expansion rules when the target is truly novel scale
+
+Expand before adding more abstraction.

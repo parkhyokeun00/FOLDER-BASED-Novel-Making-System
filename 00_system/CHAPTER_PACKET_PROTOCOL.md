@@ -17,9 +17,12 @@ The packet is the single working surface for the writer.
 - one active reader desire
 - one active reader fear
 - one live misunderstanding or controlled blind spot
+- one reason the POV cannot stay neutral if the chapter depends on witnessing or investigation
+- evidence trust state if a record, testimony, or trace drives the chapter
 - one subtext pressure
 - one human-life anchor if the chapter handles aftermath, recovery, domesticity, or cost
 - closing traction target
+- ending rhythm family
 - handoff quality target
 - one thing this chapter must never reveal too early
 

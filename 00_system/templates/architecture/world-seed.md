@@ -15,6 +15,7 @@
 
 ## Optional extension
 
+- style vector summary:
 - first irreversible movement:
 - first volume question:
 - recurring image or motif:

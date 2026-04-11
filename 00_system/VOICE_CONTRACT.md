@@ -14,6 +14,21 @@ Style drift is a continuity problem.
 - Use sentence length deliberately. Do not let every paragraph settle into the same rhythm.
 - Favor restraint over melodrama unless the volume's voice intentionally breaks.
 
+## Influence translation rule
+
+When a living-author influence is requested, translate it into a style vector rather than an imitation.
+
+Preserve only high-level traits such as:
+
+- narration distance
+- information cadence
+- dialogue sharpness
+- emotional restraint
+- image logic
+- scene-to-summary ratio
+
+Do not preserve signature sentence surfaces or recognizable verbal habits.
+
 ## Sensory priority
 
 - primary: visual light, color, shadow, spatial pressure
@@ -49,6 +64,13 @@ When a volume changes the prose texture, record:
 - what changed
 - why it changed
 - which POVs are affected
+
+## Memorable line scarcity rule
+
+Do not make every chapter close sound quotable.
+
+Strong lines are stronger when scarce.
+Distribute chapter endings across image, material, question, action, silence, and reversal rather than leaning too often on aphorism.
 
 ## Quick review questions
 

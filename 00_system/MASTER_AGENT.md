@@ -29,6 +29,7 @@ The master agent should use two passes even when only one agent is writing.
 - ask what arc or thread it moves, deepens, delays, or echoes
 - ask what the reader now wants, fears, or misunderstands
 - check pacing, traction, continuity, and emotional rhythm
+- if records or documents are involved, ask whether they are functioning as evidence, bait, or an answer key
 
 If the writer pass produces the scene, the editor pass must still review it before the system is updated.
 
@@ -116,6 +117,8 @@ The master agent should always ask:
 - Does this scene force the act, chapter, or volume plan to change?
 - Is the next chapter being invited, or merely cut to?
 - Has this chapter spent enough time inside lived experience rather than only summarizing what happened?
+- Why can this POV not stay neutral in this material?
+- Is the chapter ending using a fresh enough rhythm family, or repeating a recent closing device?
 
 If the answer changes the story's long-range direction, the corresponding board must be updated.
 
@@ -181,6 +184,7 @@ Every chapter or chapter-sized bundle should leave at least one of the following
 - an image or promise that demands the next chapter
 
 Track this in `01_world/traction/traction-log.md`.
+Use `CHAPTER_ENDING_RHYTHM_CHECK.md` when chapter endings start sounding too similar.
 
 ## Compression rule
 

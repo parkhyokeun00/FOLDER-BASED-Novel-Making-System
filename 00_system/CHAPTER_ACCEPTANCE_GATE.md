@@ -15,6 +15,7 @@ It does not automatically mean the chapter is production-ready prose.
 - reader desire, fear, or misunderstanding changed in some way
 - the next chapter feels pulled, not merely cut to
 - the chapter contains lived scene presence, not only explanatory compression
+- the chapter close earns pull or residue rather than only sounding quotable
 - removing the chapter would cause a clear loss
 
 ## Reject or revise if
@@ -22,10 +23,13 @@ It does not automatically mean the chapter is production-ready prose.
 - the chapter closes flat
 - the chapter leaks protected information
 - it repeats a recent chapter's emotional function
+- it repeats the same ending rhythm family too often without purpose
 - it exists only to carry setup without living tension
 - it refers to internal chapter numbering or outline structure in reader-facing prose unless intentional metafiction
 
 ## After structural acceptance
+
+Run `CHAPTER_ENDING_RHYTHM_CHECK.md`.
 
 If structure passes but prose still feels flat, compressed, or overexplained:
 

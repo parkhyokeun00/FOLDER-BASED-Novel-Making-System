@@ -21,6 +21,8 @@
 - active desire:
 - active fear:
 - active misunderstanding:
+- why this POV cannot stay neutral:
+- evidence trust state if relevant:
 
 ## Hidden pressure
 
@@ -31,5 +33,6 @@
 ## Exit
 
 - closing traction target:
+- ending rhythm family:
 - handoff quality target:
 - next chapter response:

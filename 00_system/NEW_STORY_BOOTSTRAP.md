@@ -15,9 +15,18 @@ Before writing any prose, decide:
 
 Do this inside `WORLD_SEED_CONTRACT.md`, not inside the first draft.
 
+## Influence translation rule
+
+If the request strongly points to a living or protected authorial voice:
+
+- do not copy the surface style
+- run `LIVING_AUTHOR_STYLE_BYPASS_PROTOCOL.md`
+- keep only a high-level style vector
+
 ## Choose the mode first
 
 - `shortform`: short story or novella
+- `midform`: 5 to 8 chapter case, novella-scale investigation, or middle-length suspense piece
 - `long-form`: one novel or one volume-scale work
 - `ultra-long-form`: multi-volume series
 

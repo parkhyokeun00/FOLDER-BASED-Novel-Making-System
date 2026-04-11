@@ -19,6 +19,8 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Read `reader-memory-model.md` for anything that needs reminder or protection.
 - Read `reader-desire-state.md` for what the reader should currently want or fear.
 - Read `traction-log.md` to see what promise the last chapter left behind.
+- If the chapter depends on a diary, testimony, recording, transcript, or staged proof, read `CONTAMINATED_EVIDENCE_PATTERN.md`.
+- If the POV is functioning mainly as a witness, observer, or investigator, run `NARRATOR_MOTIVE_EARLY_CHECK.md`.
 - Decide in advance which arc, thread, or relationship will move, deepen, echo, or deliberately pause.
 - Decide whether this chapter is a pressure chapter, reveal chapter, breathing chapter, or closing chapter.
 - Name the chapter's lived sensory center.
@@ -45,6 +47,7 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Run `CHAPTER_EXTENSION_GATE.md`.
 - If the chapter is structurally right but prose-flat, run `PRODUCTION_REWRITE_MODE.md`.
 - Run `CHAPTER_ACCEPTANCE_GATE.md`.
+- Run `CHAPTER_ENDING_RHYTHM_CHECK.md`.
 - If this is chapter 3 in a long-form project, run the chapter-003 scale check from `LONGFORM_EXPANSION_PROTOCOL.md`.
 - Run `BOARD_FRESHNESS_AUDIT.md`.
 - Run `CONTINUITY_AUDIT_CHECKLIST.md`.

@@ -19,6 +19,7 @@ Its job is to define the smallest stable story seed that every later board shoul
 
 ## Optional but recommended
 
+- style vector summary
 - first irreversible movement
 - first volume question
 - one recurring image or motif

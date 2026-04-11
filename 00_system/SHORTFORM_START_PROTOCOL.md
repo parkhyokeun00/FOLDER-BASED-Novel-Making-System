@@ -4,6 +4,8 @@ Use this for short stories and novellas.
 
 The system for shortform must compress before it expands.
 
+If the material wants 5 to 8 chapters, a verification phase, or a residue chapter after the reveal, read `MIDFORM_CASE_EXPANSION_GUIDE.md` before forcing pure shortform compression.
+
 ## Opening rule
 
 Before scene 1 exists, complete:
@@ -40,6 +42,8 @@ Before writing the first scene, define:
 - what the scene must leave behind emotionally
 - what the last line must do
 - what the reader should misread at first
+
+If the POV is mainly an observer, witness, or investigator, also run `NARRATOR_MOTIVE_EARLY_CHECK.md`.
 
 ## Early payoff rule
 
