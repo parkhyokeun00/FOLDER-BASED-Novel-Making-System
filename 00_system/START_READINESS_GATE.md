@@ -65,6 +65,13 @@ Before final approval:
 
 - `00_system/SYSTEM_SMOKE_AUDIT.md` should pass
 
+If the project centrally involves coercion, trauma, or contested legal harm:
+
+- core affected character state files are created before chapter 1
+- unknown high-stakes fields are marked `unknown` rather than guessed
+- research gaps are logged in `02_sources/`
+- portrayal guardrails are named before approval
+
 ## Approval questions
 
 1. What does the reader believe they are starting?

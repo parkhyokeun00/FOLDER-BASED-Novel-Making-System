@@ -21,6 +21,9 @@ The packet is the single working surface for the writer.
 - evidence trust state if a record, testimony, or trace drives the chapter
 - one subtext pressure
 - one human-life anchor if the chapter handles aftermath, recovery, domesticity, or cost
+- state delta expectation if this chapter contains major harm, coercion, or trauma carryover
+- power asymmetry note if one party can coerce or silence another
+- portrayal integrity note if false mutuality or glamorization is a live risk
 - closing traction target
 - ending rhythm family
 - handoff quality target

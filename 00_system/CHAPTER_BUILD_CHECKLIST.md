@@ -21,6 +21,7 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Read `traction-log.md` to see what promise the last chapter left behind.
 - If the chapter depends on a diary, testimony, recording, transcript, or staged proof, read `CONTAMINATED_EVIDENCE_PATTERN.md`.
 - If the POV is functioning mainly as a witness, observer, or investigator, run `NARRATOR_MOTIVE_EARLY_CHECK.md`.
+- If the chapter centers coercion, trauma, or contested testimony, run `TRAUMA_AWARE_CHARACTER_STATE_PROTOCOL.md`.
 - Decide in advance which arc, thread, or relationship will move, deepen, echo, or deliberately pause.
 - Decide whether this chapter is a pressure chapter, reveal chapter, breathing chapter, or closing chapter.
 - Name the chapter's lived sensory center.
@@ -41,6 +42,7 @@ Use this checklist before and after building a new chapter in a long or ultra-lo
 - Update `reader-memory-model.md` if memory state changed.
 - Update `misreading-design.md` if a controlled misunderstanding deepened or broke.
 - Update `reader-desire-state.md` if reader desire or fear materially changed.
+- If the chapter carried major harm or coercion, log the affected character state delta before moving on.
 - Update `traction-log.md` with the chapter-closing pull.
 - Update chapter status in `chapter-map.md`.
 - Add any continuity risk to `continuity-watchlist.md`.

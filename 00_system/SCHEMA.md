@@ -300,6 +300,7 @@ For chapter execution, also use:
 - `00_system/CHAPTER_PACKET_PROTOCOL.md`
 - `00_system/CONTAMINATED_EVIDENCE_PATTERN.md` when documents or traces drive the plot
 - `00_system/NARRATOR_MOTIVE_EARLY_CHECK.md` when the POV risks feeling detached
+- `00_system/TRAUMA_AWARE_CHARACTER_STATE_PROTOCOL.md` when coercion, trauma, contested testimony, or legal harm framing is central
 - `00_system/CHAPTER_EXTENSION_GATE.md`
 - `00_system/CHAPTER_ACCEPTANCE_GATE.md`
 - `00_system/CHAPTER_ENDING_RHYTHM_CHECK.md`
