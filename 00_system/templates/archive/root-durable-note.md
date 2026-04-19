@@ -14,6 +14,16 @@ Use this when a disposable clone reaches a meaningful stop state and future agen
 2. 
 3. 
 
+## Promotion candidates for main engine
+
+- durable lesson worth promoting:
+- best target file:
+- why it should be promoted:
+
+## What must stay clone-local
+
+- story-specific lore, source-bound choices, checkpoint ids, or one-off polish decisions:
+
 ## Rolled back on purpose
 
 - 
@@ -31,4 +41,5 @@ Use this when a disposable clone reaches a meaningful stop state and future agen
 ## Boundary reminder
 
 - Treat these files as the durable memory of the clone.
+- Promotion notes should extract reusable engine lessons, not smuggle clone-specific story canon back into the engine.
 - Do not rely on branch names, remembered chat state, or commit hashes as the primary recovery surface.

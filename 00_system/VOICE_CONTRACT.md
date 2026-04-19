@@ -46,6 +46,11 @@ Do not preserve signature sentence surfaces or recognizable verbal habits.
 - Do not leave internal drafting labels in the prose.
 - Avoid phrases that expose outline scaffolding such as raw chapter numbering, board references, or planning language unless the work is intentionally metafictional.
 
+## Language-surface hygiene
+
+- Remove accidental mixed-language residue, untranslated source labels, placeholder English, and note debris before marking prose production-ready.
+- Keep code-switching or foreign-language fragments only when they are intentional, readable in context, and belong to the character, setting, or document.
+
 ## POV variation
 
 Each POV entry in `pov-map.md` should define:
@@ -77,5 +82,6 @@ Distribute chapter endings across image, material, question, action, silence, an
 - Does this chapter sound like the same series?
 - Does this POV sound like the same mind?
 - Has urgency flattened the prose into generic speed?
+- Has accidental source-language residue or placeholder English slipped into the prose?
 - Has exposition erased tension or subtext?
 - Has emotion become explanation instead of experience?

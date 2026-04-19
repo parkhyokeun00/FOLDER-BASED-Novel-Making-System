@@ -100,8 +100,10 @@ This workspace uses layered closure rather than one giant update pass.
 
 ## Boundary laws
 
+- Reader-facing novel production belongs in a disposable clone, not in this reusable engine repo.
 - A disposable clone may carry a fully finished story while still remaining non-canonical to this reusable engine repo.
-- When a disposable clone reaches a meaningful stop point, leave one root-front `000_*.md` durable note. Use `00_system/templates/archive/root-durable-note.md` and record stop state, artifact trail, intentional rollbacks, and reopen order.
+- When a disposable clone reaches a meaningful stop point, leave one root-front `000_*.md` durable note. Use `00_system/templates/archive/root-durable-note.md` and record stop state, artifact trail, intentional rollbacks, reopen order, and engine-promotion candidates.
+- Promote back only durable engine-level lessons that were proven useful in the clone. Do not import story-specific lore, source-bound choices, checkpoint ids, or manuscript-local polish decisions into the reusable engine.
 - Treat file-based notes as the clone's durable memory. Do not rely on branch names, remembered chat state, or commit hashes as the primary recovery surface.
 - `manuscript-close` and `outward packaging` are separate phases. Start outward packaging from copied frozen files in a fresh workspace or explicit packaging branch rather than blurring it into the manuscript-close clone.
 

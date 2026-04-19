@@ -19,12 +19,16 @@ A claim is promoted only when:
 3. its scope is clear
 4. its provenance is known
 
+Clone-local story facts do not become reusable engine law only because a disposable clone used them successfully once.
+Promote back only durable workflow lessons that were explicitly separated from story-specific lore, source-bound decisions, and clone-local checkpoint state.
+
 ## Never do this
 
 - treat chat speculation as canon
 - treat a discarded outline as canon
 - treat a possible reveal as already true
 - treat a scene draft as checkpoint truth before the system says so
+- treat clone-local story facts, checkpoint ids, or one-off manuscript fixes as reusable engine law
 
 ## Safe promotion path
 

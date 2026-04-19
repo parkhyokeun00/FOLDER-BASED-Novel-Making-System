@@ -5,6 +5,16 @@ Use this as the single entry point when starting a brand-new story from a struct
 Its job is to remove startup hesitation.
 It is a hard gate, not a suggestion.
 
+## Clone-first startup rule
+
+If this folder is the reusable engine, do not draft the real manuscript here.
+Create a disposable clone first, and run the live story there.
+
+Use the engine repo to improve the system.
+Use the clone to carry the reader-facing manuscript.
+
+When the clone closes, leave a root-front durable note and promote back only proven engine-level lessons.
+
 ## Raw motif intake rule
 
 Before writing any prose, decide:
@@ -46,7 +56,8 @@ If the request strongly points to a living or protected authorial voice:
 
 ## Hard gate rule
 
-Do not create the first real manuscript file in `03_manuscript/` before:
+Do not create the first real manuscript file in the reusable engine repo.
+Create it only inside the disposable clone, and only after:
 
 - `START_READINESS_GATE.md` is `APPROVED`
 - `SYSTEM_SMOKE_AUDIT.md` passes
