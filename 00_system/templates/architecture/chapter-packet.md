@@ -12,6 +12,8 @@
 - primary storyline:
 - secondary storyline:
 - purpose:
+- newly earned here:
+- already proved; do not merely restate:
 - reference set used before drafting:
 - one irreversible shift:
 - lived sensory center:
@@ -21,6 +23,8 @@
 - active desire:
 - active fear:
 - active misunderstanding:
+- attachment line carried:
+- cold-reader foothold if needed:
 - why this POV cannot stay neutral:
 - evidence trust state if relevant:
 

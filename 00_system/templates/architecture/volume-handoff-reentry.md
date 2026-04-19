@@ -5,6 +5,8 @@
 - answered promise:
 - alive desire:
 - alive fear:
+- carryover human anchor:
+- attachment that must not reset:
 - required memory:
 - safe fade:
 
@@ -12,6 +14,6 @@
 
 - first reminder:
 - first reward:
+- first reunion or callback:
 - first carry-over question:
 - avoid over-explaining:
-

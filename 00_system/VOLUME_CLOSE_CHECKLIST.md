@@ -28,6 +28,13 @@ Run this at the end of every volume.
 - What can now fade safely?
 - Which controlled misunderstandings are still alive?
 - What is the next volume's strongest purchase driver?
+- Which human anchor or relationship must carry into the next volume so the reader does not emotionally restart?
+
+## Reader-facing output audit
+
+- Does the compiled manuscript read like reader-facing output rather than an internal relay bundle?
+- Are chapter naming and presentation consistent enough for a cold reader?
+- Which repetition cluster should be marked for rewrite instead of rolled forward untouched?
 
 ## Theme and resonance
 
@@ -43,4 +50,6 @@ Run this at the end of every volume.
 - Update `volume-handoff-reentry.md`.
 - Record any newly binding truths in `canon-ratification-ledger.md`.
 - Confirm manuscript output matches the frozen state.
-- Define entry conditions for the next volume.
+- If the manuscript is still live, define entry conditions for the next volume.
+- If the manuscript is closed, explicitly mark the next phase as `freeze only` or `outward packaging`.
+- Start outward packaging from copied frozen files in a fresh workspace or explicit packaging branch rather than blurring it into the manuscript-close clone.

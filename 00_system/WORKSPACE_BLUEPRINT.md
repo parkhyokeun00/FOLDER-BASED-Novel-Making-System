@@ -52,6 +52,7 @@ Each layer answers a different question:
 
 ```text
 README.md
+000_*.md (optional durable clone closeout notes)
 00_system/
 01_world/
 02_sources/
@@ -62,6 +63,9 @@ README.md
 
 - `README.md`
   Global orientation.
+
+- `000_*.md`
+  Optional root-front durable notes for disposable clones that reached a meaningful stop state.
 
 - `00_system/`
   Rules, contracts, checklists, templates, and reconstruction logic.
@@ -118,6 +122,7 @@ README.md
   WORLD_SEED_CONTRACT.md
   WORKSPACE_BLUEPRINT.md
   templates/
+    archive/
     arc/
     architecture/
     canon/
@@ -422,13 +427,24 @@ If a completed story begins to interfere with architecture work:
 - remove story-specific checkpoints
 - remove compiled manuscript files
 - reset live world boards to generic scaffold state
+- preserve any root-front `000_*.md` durable note that carries stop-state, rollback, or reopen instructions
 - keep system rules and templates intact
 
 This workspace is currently in that reset state.
 
 ---
 
-## 11. Final summary
+## 11. Disposable clone archival rule
+
+- A disposable clone may hold a fully finished manuscript while remaining non-canonical to the reusable engine.
+- When a clone reaches a meaningful stop state, create one root-front durable note from `templates/archive/root-durable-note.md`.
+- That note should carry the stop state, useful artifact trail, intentional rollbacks, and first-read order for the next agent.
+- Treat the files as the durable memory of the clone. Do not assume branch names, commit hashes, or checkout survival will preserve the meaning.
+- If work is moving from manuscript-close into outward packaging, start from copied frozen files in a fresh workspace or explicit packaging branch.
+
+---
+
+## 12. Final summary
 
 To reproduce the current system correctly, remember this:
 

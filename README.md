@@ -98,6 +98,13 @@ This workspace uses layered closure rather than one giant update pass.
 - freeze a checkpoint
 - audit canon, theme, resonance, and manuscript sync
 
+## Boundary laws
+
+- A disposable clone may carry a fully finished story while still remaining non-canonical to this reusable engine repo.
+- When a disposable clone reaches a meaningful stop point, leave one root-front `000_*.md` durable note. Use `00_system/templates/archive/root-durable-note.md` and record stop state, artifact trail, intentional rollbacks, and reopen order.
+- Treat file-based notes as the clone's durable memory. Do not rely on branch names, remembered chat state, or commit hashes as the primary recovery surface.
+- `manuscript-close` and `outward packaging` are separate phases. Start outward packaging from copied frozen files in a fresh workspace or explicit packaging branch rather than blurring it into the manuscript-close clone.
+
 ## Long-form support
 
 For longer fiction, object state alone is not enough.

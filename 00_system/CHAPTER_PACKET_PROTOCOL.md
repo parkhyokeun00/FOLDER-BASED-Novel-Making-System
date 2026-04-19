@@ -12,11 +12,15 @@ The packet is the single working surface for the writer.
 - primary storyline
 - secondary storyline if any
 - chapter purpose
+- one thing newly earned here
+- one meaning already proved that this chapter must not merely restate
 - reference set used before drafting
 - lived sensory center
 - one active reader desire
 - one active reader fear
 - one live misunderstanding or controlled blind spot
+- one attachment line being carried rather than reset
+- one cold-reader foothold if the chapter uses heavy procedure, jargon, or institutional logic
 - one reason the POV cannot stay neutral if the chapter depends on witnessing or investigation
 - evidence trust state if a record, testimony, or trace drives the chapter
 - one subtext pressure

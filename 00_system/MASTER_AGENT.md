@@ -59,6 +59,7 @@ When creating a scene, the master agent should:
 12. Save `draft.md`, `aftermath.md`, and `emotion-map.md` if used.
 13. If the unit is chapter-scale, use a chapter packet, then run `CHAPTER_EXTENSION_GATE.md` and `CHAPTER_ACCEPTANCE_GATE.md`.
 14. Propagate updates according to the cadence rules in `SCHEMA.md`.
+15. If more than one worker touched the prose pass, verify landed files with `git diff --name-only` or an equivalent workspace diff before declaring completion.
 
 ## Aftermath-first propagation
 

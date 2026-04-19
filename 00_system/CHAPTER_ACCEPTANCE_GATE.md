@@ -15,6 +15,7 @@ It does not automatically mean the chapter is production-ready prose.
 - reader desire, fear, or misunderstanding changed in some way
 - the next chapter feels pulled, not merely cut to
 - the chapter contains lived scene presence, not only explanatory compression
+- if the material is jargon-heavy, procedural, or institutional, the chapter still offers a bodily or emotional foothold before term density spikes
 - the chapter close earns pull or residue rather than only sounding quotable
 - if harm or coercion is central, power asymmetry remains legible and aftermath is not erased
 - removing the chapter would cause a clear loss
@@ -24,16 +25,22 @@ It does not automatically mean the chapter is production-ready prose.
 - the chapter closes flat
 - the chapter leaks protected information
 - it repeats a recent chapter's emotional function
+- it asks the reader to understand the same meaning twice
 - it repeats the same ending rhythm family too often without purpose
 - it exists only to carry setup without living tension
+- jargon, procedure, or institutional logic outruns bodily stakes
+- it asks for admiration of structure instead of need for the next beat
 - it softens active harm into false neutrality or glamour
 - it refers to internal chapter numbering or outline structure in reader-facing prose unless intentional metafiction
 
 ## After structural acceptance
+
+Structural acceptance means the chapter may stay in the architecture.
+It does not mean the prose pass is closed.
 
 Run `CHAPTER_ENDING_RHYTHM_CHECK.md`.
 
 If structure passes but prose still feels flat, compressed, or overexplained:
 
 - run `PRODUCTION_REWRITE_MODE.md`
-- only then mark the chapter production-ready
+- only then mark the chapter production-ready unless the rewrite pass is explicitly waived
